@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>com.elliotwaite.cyberpunk_theme</id>
+    <name>Cyberpunk Theme</name>
+    <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
+
+    <description><![CDATA[
+    A dark theme inspired by the look of Cyberpunk 2077.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="3f316286-64a8-421b-91ae-21b0dfde096d" path="/cyberpunk_theme.theme.json"/>
+    </extensions>
+</idea-plugin>

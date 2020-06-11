@@ -1,0 +1,2 @@
+In highContrastSchemeWhitened.xml, 'colors > TEXT > BACKGROUND' must be kept dark, or else
+'colors > DOCUMENTATION_COLOR' will be ignored.

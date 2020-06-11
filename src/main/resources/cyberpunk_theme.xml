@@ -1,0 +1,133 @@
+<scheme name="Cyberpunk Theme" version="142" parent_scheme="Darcula">
+    <colors>
+        <option name="CARET_COLOR" value="ffffff" />
+        <option name="CARET_ROW_COLOR" value="2e2e2e" />
+        <option name="DOCUMENTATION_COLOR" value="343434" />
+        <option name="FILESTATUS_ADDED" value="6ea55a" />
+        <option name="FILESTATUS_COPIED" value="6ea55a" />
+        <option name="FILESTATUS_DELETED" value="585858" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="585858" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="777777" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="e37775" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="e37775" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="e37775" />
+        <option name="FILESTATUS_MERGED" value="b484d2" />
+        <option name="FILESTATUS_MODIFIED" value="a5df" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="a5df" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="a5df" />
+        <option name="FILESTATUS_RENAMED" value="ab88" />
+        <option name="FILESTATUS_UNKNOWN" value="e37775" />
+        <option name="FILESTATUS_addedOutside" value="6ea55a" />
+        <option name="FILESTATUS_changelistConflict" value="e37775" />
+        <option name="FILESTATUS_modifiedOutside" value="a5df" />
+        <option name="GUTTER_BACKGROUND" value="2e2e2e" />
+        <option name="INDENT_GUIDE" value="3b3b3b" />
+        <option name="METHOD_SEPARATORS_COLOR" value="3b3b3b" />
+        <option name="RIGHT_MARGIN_COLOR" value="3b3b3b" />
+        <option name="TEARLINE_COLOR" value="3b3b3b" />
+        <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
+    </colors>
+    <attributes>
+        <option name="DEFAULT_BLOCK_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="777777" />
+            </value>
+        </option>
+        <option name="DEFAULT_CLASS_NAME">
+            <value>
+                <option name="FOREGROUND" value="efaa" />
+            </value>
+        </option>
+        <option name="DEFAULT_DOC_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="777777" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="DEFAULT_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="e0ef" />
+            </value>
+        </option>
+        <option name="DEFAULT_FUNCTION_DECLARATION">
+            <value>
+                <option name="FOREGROUND" value="e0ef" />
+            </value>
+        </option>
+        <option name="DEFAULT_IDENTIFIER">
+            <value />
+        </option>
+        <option name="DEFAULT_INVALID_STRING_ESCAPE">
+            <value>
+                <option name="FOREGROUND" value="ff5952" />
+                <option name="EFFECT_COLOR" value="ff0000" />
+                <option name="EFFECT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="DEFAULT_LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="777777" />
+            </value>
+        </option>
+        <option name="DEFAULT_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="efaa" />
+            </value>
+        </option>
+        <option name="DEFAULT_STRING">
+            <value>
+                <option name="FOREGROUND" value="ffef94" />
+            </value>
+        </option>
+        <option name="DEFAULT_VALID_STRING_ESCAPE">
+            <value>
+                <option name="FOREGROUND" value="ffb378" />
+            </value>
+        </option>
+        <option name="PY.BUILTIN_NAME">
+            <value>
+                <option name="FOREGROUND" value="f0ff" />
+            </value>
+        </option>
+        <option name="PY.DECORATOR">
+            <value>
+                <option name="FOREGROUND" value="e0ef" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="PY.KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="ff5952" />
+            </value>
+        </option>
+        <option name="PY.KEYWORD_ARGUMENT">
+            <value />
+        </option>
+        <option name="PY.PREDEFINED_DEFINITION">
+            <value>
+                <option name="FOREGROUND" value="f0ff" />
+            </value>
+        </option>
+        <option name="PY.PREDEFINED_USAGE">
+            <value>
+                <option name="FOREGROUND" value="e0ef" />
+            </value>
+        </option>
+        <option name="PY.SELF_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="ff5952" />
+            </value>
+        </option>
+        <option name="PY.STRING.B">
+            <value>
+                <option name="FOREGROUND" value="ffef94" />
+            </value>
+        </option>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="cacaca" />
+                <option name="BACKGROUND" value="272727" />
+            </value>
+        </option>
+    </attributes>
+</scheme>
