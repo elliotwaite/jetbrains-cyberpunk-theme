@@ -118,7 +118,7 @@ def build_ide_theme(colors, color_index):
     'name': 'Cyberpunk Theme',
     'dark': True,
     'author': 'Elliot Waite',
-    'editorScheme': '/cyberpunk_theme.xml',
+    'editorScheme': '/cyberpunk.xml',
     'ui': theme['ui'],
     'icons': theme['icons'],
   }

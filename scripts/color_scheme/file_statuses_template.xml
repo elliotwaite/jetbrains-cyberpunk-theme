@@ -1,0 +1,26 @@
+<scheme name="File Statuses" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="FILESTATUS_ADDED" value="fileStatusGreen" />
+    <option name="FILESTATUS_addedOutside" value="fileStatusGreen" />
+    <option name="FILESTATUS_changelistConflict" value="fileStatusRed" />
+    <option name="FILESTATUS_COPIED" value="fileStatusGreen" />
+    <option name="FILESTATUS_DELETED" value="grey14" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="grey14" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="fileStatusBlue" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="fileStatusBlue" />
+
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="grey16" />
+    <option name="FILESTATUS_MERGED" value="purple" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="fileStatusRed" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="fileStatusRed" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="fileStatusRed" />
+    <option name="FILESTATUS_MODIFIED" value="fileStatusBlue" />
+    <option name="FILESTATUS_modifiedOutside" value="fileStatusBlue" />
+
+    <option name="FILESTATUS_RENAMED" value="fileStatusBlue" />
+
+
+    <option name="FILESTATUS_UNKNOWN" value="fileStatusRed" />
+
+  </colors>
+</scheme>

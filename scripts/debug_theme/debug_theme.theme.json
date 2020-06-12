@@ -2,7 +2,7 @@
   "name": "Cyberpunk Theme",
   "dark": true,
   "author": "Elliot Waite",
-  "editorScheme": "/cyberpunk_theme.xml",
+  "editorScheme": "/cyberpunk.xml",
   "ui": {
     "*": {
       "acceleratorForeground": "#1f00ff",

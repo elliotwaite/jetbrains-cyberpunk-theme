@@ -10,6 +10,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="3f316286-64a8-421b-91ae-21b0dfde096d" path="/cyberpunk_theme.theme.json"/>
+        <themeProvider id="3f316286-64a8-421b-91ae-21b0dfde096d" path="/cyberpunk.theme.json"/>
     </extensions>
 </idea-plugin>

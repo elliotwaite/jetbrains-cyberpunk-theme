@@ -1,0 +1,166 @@
+{
+  "name": "Cyberpunk Theme",
+  "dark": true,
+  "author": "Elliot Waite",
+  "editorScheme": "/cyberpunk.xml",
+  "colors": {
+    "black": "#000000",
+    "grey1": "#0b0b0b",
+    "grey2": "#141414",
+    "grey3": "#1a1a1a",
+    "grey4": "#212121",
+    "grey5": "#272727",
+    "grey6": "#2e2e2e",
+    "grey7": "#343434",
+    "grey8": "#3b3b3b",
+    "grey9": "#424242",
+    "grey10": "#4a4a4a",
+    "grey11": "#515151",
+    "grey12": "#585858",
+    "grey13": "#606060",
+    "grey14": "#676767",
+    "grey15": "#6f6f6f",
+    "grey16": "#777777",
+    "grey17": "#7f7f7f",
+    "grey18": "#878787",
+    "grey19": "#8f8f8f",
+    "grey20": "#979797",
+    "grey21": "#9f9f9f",
+    "grey22": "#a8a8a8",
+    "grey23": "#b0b0b0",
+    "grey24": "#b9b9b9",
+    "grey25": "#c1c1c1",
+    "grey26": "#cacaca",
+    "grey27": "#d3d2d2",
+    "grey28": "#dbdbdb",
+    "grey29": "#e4e4e4",
+    "grey30": "#ededed",
+    "grey31": "#f6f6f6",
+    "white": "#ffffff",
+
+    "red": "#FF5952",
+    "orange": "#FFB378",
+    "yellow": "#FFEF94",
+    "green": "#00CA89",
+    "blue": "#00E0EF",
+    "purple": "#C595E4",
+
+    "fileStatusRed": "#FF5952",
+    "fileStatusGreen": "#FFB378",
+    "fileStatusBlue": "#FFEF94",
+
+    "progressBarStart": "#00E0EF",
+    "progressBarEnd": "#C595E4",
+
+    "error": "#FF0000"
+  },
+  "ui": {
+    "*": {
+      "disabledBackground": "grey10"
+    },
+    "Borders": {
+      "color": "grey5",
+      "ContrastBorderColor": "grey5"
+    },
+    "Button": {
+      "background": "grey8"
+    },
+    "CheckBox": {
+      "background": "grey8"
+    },
+    "ComboBox": {
+      "nonEditableBackground": "grey7"
+    },
+    "CompletionPopup": {
+      "foreground": "grey23",
+      "matchForeground": "grey30",
+      "selectionBackground": "grey10",
+      "selectionInactiveBackground": "grey10"
+    },
+    "Component": {
+      "borderColor": "grey10",
+      "disabledBorderColor": "grey10"
+    },
+    "DefaultTabs": {
+      "background": "grey8",
+      "hoverBackground": "grey6",
+      "inactiveUnderlineColor": "grey6",
+      "underlineColor": "grey6"
+    },
+    "Editor": {
+      "background": "grey4",
+      "foreground": "grey23",
+      "shortcutForeground": "blue"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "grey6"
+    },
+    "List": {
+      "background": "grey8",
+      "foreground": "grey23",
+      "selectionBackground": "grey10",
+      "selectionForeground": "grey30"
+    },
+    "Menu": {
+      "background": "grey8",
+      "foreground": "grey23",
+      "selectionForeground": "grey30",
+      "separatorColor": "grey10"
+    },
+    "Panel": {
+      "background": "grey8",
+      "foreground": "grey23"
+    },
+    "Plugins": {
+      "lightSelectionBackground": "grey10"
+    },
+    "PopupMenu": {
+      "background": "grey8"
+    },
+    "ProgressBar": {
+      "trackColor": "grey4",
+      "progressColor": "progressBarStart",
+      "indeterminateStartColor": "progressBarStart",
+      "indeterminateEndColor": "progressBarEnd"
+    },
+    "RadioButton": {
+      "background": "grey8"
+    },
+    "SidePanel": {
+      "background": "grey8"
+    },
+    "Spinner": {
+      "background": "grey8"
+    },
+    "StatusBar": {
+      "borderColor": "grey5",
+      "hoverBackground": "grey6"
+    },    "ToolWindow": {
+      "Button": {
+        "hoverBackground": "grey6",
+        "selectedBackground": "grey6",
+        "selectedForeground": "grey23"
+      },
+      "Header": {
+        "background": "grey8",
+        "inactiveBackground": "grey8"
+      }
+    },
+    "TabbedPane": {
+      "background": "grey8"
+    },
+    "ToolTip": {
+      "Actions": {
+        "background": "grey8"
+      },
+      "background": "grey8"
+    },
+    "Tree": {
+      "background": "grey6",
+      "foreground": "grey23",
+      "selectionBackground": "grey10",
+      "selectionForeground": "grey30",
+      "selectionInactiveBackground": "grey8"
+    }
+  }
+}
