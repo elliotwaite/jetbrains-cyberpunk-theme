@@ -1,6 +1,5 @@
 import json
 import math
-import os
 
 DEMO_IDE_THEME_PATH = 'demo_theme/HighContrast.theme.json'
 DEMO_EDITOR_THEME_PATH = 'demo_theme/highContrastSchemeWhitened.xml'
