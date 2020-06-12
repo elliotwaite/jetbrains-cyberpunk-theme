@@ -26,6 +26,7 @@
     "cyan200": "#001A22",
     "cyan201": "#00242F",
     "cyan202": "#002E3D",
+    "cyan2025": "#003B4B",
     "cyan203": "#003B4B",
     "cyan204": "#004A5A",
     "cyan205": "#005A69",
@@ -106,7 +107,7 @@
       "trackColor": "grey0025",
       "progressColor": "cyan213",
       "indeterminateStartColor": "cyan213",
-      "indeterminateEndColor": "cyan203"
+      "indeterminateEndColor": "cyan2025"
     },
     "RadioButton": {
       "background": "grey004"
