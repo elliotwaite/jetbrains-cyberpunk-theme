@@ -1,0 +1,12 @@
+HOW TO UPDATE THE THEME
+
+Any changes to the theme other than changes the color scheme can be made
+directly in the 'src/main/resources/cyberpunk.theme.json'.
+
+To update the color scheme:
+  1. Modify a version of Darcula.
+  2. Export the color scheme to '/scripts/color_scheme/modified_darcula.icls'.
+  3. Run the builder: 'scripts/color_scheme/builder.py'
+
+To build the plugin, open the project in IntelliJ and run the Gradle task:
+  Tasks > intellij > buildPlugin
