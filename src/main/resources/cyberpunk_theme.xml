@@ -1,13 +1,6 @@
 <scheme name="Cyberpunk Theme" version="142" parent_scheme="Darcula">
-    <metaInfo>
-        <property name="created">2020-06-11T17:39:20</property>
-        <property name="ide">PyCharmCore</property>
-        <property name="ideVersion">2020.1.1.0.0</property>
-        <property name="modified">2020-06-11T17:39:25</property>
-        <property name="originalScheme">_@user_Cyberpunk Theme</property>
-    </metaInfo>
     <colors>
-        <option name="ADDED_LINES_COLOR" value="2a4121" />
+        <option name="ADDED_LINES_COLOR" value="3b3b3b" />
         <option name="CARET_COLOR" value="ffffff" />
         <option name="CARET_ROW_COLOR" value="2e2e2e" />
         <option name="DOCUMENTATION_COLOR" value="343434" />
@@ -31,12 +24,12 @@
         <option name="GUTTER_BACKGROUND" value="2e2e2e" />
         <option name="INDENT_GUIDE" value="3b3b3b" />
         <option name="METHOD_SEPARATORS_COLOR" value="3b3b3b" />
-        <option name="MODIFIED_LINES_COLOR" value="444a" />
+        <option name="MODIFIED_LINES_COLOR" value="3b3b3b" />
         <option name="RIGHT_MARGIN_COLOR" value="3b3b3b" />
         <option name="SELECTION_BACKGROUND" value="3b3b3b" />
         <option name="TEARLINE_COLOR" value="3b3b3b" />
         <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="413c18" />
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="3b3b3b" />
     </colors>
     <attributes>
         <option name="BASH.EXTERNAL_COMMAND">
