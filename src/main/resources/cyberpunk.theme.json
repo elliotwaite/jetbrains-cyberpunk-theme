@@ -49,9 +49,6 @@
     "fileStatusGreen": "#FFB378",
     "fileStatusBlue": "#FFEF94",
 
-    "progressBarStart": "#00E0EF",
-    "progressBarEnd": "#C595E4",
-
     "error": "#FF0000"
   },
   "ui": {
@@ -119,9 +116,9 @@
     },
     "ProgressBar": {
       "trackColor": "grey4",
-      "progressColor": "progressBarStart",
-      "indeterminateStartColor": "progressBarStart",
-      "indeterminateEndColor": "progressBarEnd"
+      "progressColor": "blue",
+      "indeterminateStartColor": "blue",
+      "indeterminateEndColor": "purple"
     },
     "RadioButton": {
       "background": "grey8"
