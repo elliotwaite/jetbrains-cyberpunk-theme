@@ -46,8 +46,8 @@
     "purple": "#C595E4",
 
     "fileStatusRed": "#FF5952",
-    "fileStatusGreen": "#FFB378",
-    "fileStatusBlue": "#FFEF94",
+    "fileStatusGreen": "#00CA89",
+    "fileStatusBlue": "#00E0EF",
 
     "error": "#FF0000"
   },

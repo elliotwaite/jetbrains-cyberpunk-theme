@@ -16,22 +16,22 @@
     <option name="TEARLINE_COLOR" value="515151" />
     <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="3b3b3b" />
-    <option name="FILESTATUS_ADDED" value="ffb378" />
-    <option name="FILESTATUS_addedOutside" value="ffb378" />
+    <option name="FILESTATUS_ADDED" value="ca89" />
+    <option name="FILESTATUS_addedOutside" value="ca89" />
     <option name="FILESTATUS_changelistConflict" value="ff5952" />
-    <option name="FILESTATUS_COPIED" value="ffb378" />
+    <option name="FILESTATUS_COPIED" value="ca89" />
     <option name="FILESTATUS_DELETED" value="676767" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="676767" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="ffef94" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="ffef94" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="e0ef" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="e0ef" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="777777" />
     <option name="FILESTATUS_MERGED" value="c595e4" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff5952" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff5952" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff5952" />
-    <option name="FILESTATUS_MODIFIED" value="ffef94" />
-    <option name="FILESTATUS_modifiedOutside" value="ffef94" />
-    <option name="FILESTATUS_RENAMED" value="ffef94" />
+    <option name="FILESTATUS_MODIFIED" value="e0ef" />
+    <option name="FILESTATUS_modifiedOutside" value="e0ef" />
+    <option name="FILESTATUS_RENAMED" value="e0ef" />
     <option name="FILESTATUS_UNKNOWN" value="ff5952" />
   </colors>
   <attributes>
@@ -141,7 +141,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="ff95c5" />
+        <option name="FOREGROUND" value="ca89" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -178,7 +178,7 @@
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="ff95c5" />
+        <option name="FOREGROUND" value="ca89" />
       </value>
     </option>
     <option name="HTML_TAG">
