@@ -1,4 +1,11 @@
 <scheme name="Cyberpunk Theme" version="142" parent_scheme="Darcula">
+    <metaInfo>
+        <property name="created">2020-06-11T17:39:20</property>
+        <property name="ide">PyCharmCore</property>
+        <property name="ideVersion">2020.1.1.0.0</property>
+        <property name="modified">2020-06-11T17:39:25</property>
+        <property name="originalScheme">_@user_Cyberpunk Theme</property>
+    </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="2a4121" />
         <option name="CARET_COLOR" value="ffffff" />
@@ -256,10 +263,22 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
+        <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c595e4" />
+            </value>
+        </option>
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="cacaca" />
                 <option name="BACKGROUND" value="272727" />
+            </value>
+        </option>
+        <option name="TODO_DEFAULT_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="ffef94" />
+                <option name="FONT_TYPE" value="2" />
+                <option name="ERROR_STRIPE_COLOR" value="977ab" />
             </value>
         </option>
         <option name="XML_ENTITY_REFERENCE">
