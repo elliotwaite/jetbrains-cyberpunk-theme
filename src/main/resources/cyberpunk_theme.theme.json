@@ -80,18 +80,17 @@
     "EditorTabs": {
       "underlinedTabBackground": "grey003"
     },
-    "Link": {
-      "activeForeground": "cyan213",
-      "hoverForeground": "cyan213",
-      "pressedForeground": "cyan213",
-      "secondaryForeground": "cyan213",
-      "visitedForeground": "cyan213"
-    },
     "List": {
       "background": "grey004",
       "foreground": "grey012",
       "selectionBackground": "grey005",
       "selectionForeground": "grey015"
+    },
+    "Menu": {
+      "background": "grey004",
+      "foreground": "grey012",
+      "selectionForeground": "grey015",
+      "separatorColor": "grey005"
     },
     "Panel": {
       "background": "grey004",
@@ -99,6 +98,9 @@
     },
     "Plugins": {
       "lightSelectionBackground": "grey005"
+    },
+    "PopupMenu": {
+      "background": "grey004"
     },
     "ProgressBar": {
       "trackColor": "grey0025",
