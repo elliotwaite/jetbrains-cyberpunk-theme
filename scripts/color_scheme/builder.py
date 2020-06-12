@@ -5,7 +5,7 @@ EXPORTED_COLOR_SCHEME_PATH = 'exported_color_scheme.icls'
 COLOR_SCHEME_TEMPLATE_PATH = 'color_scheme_template.xml'
 THEME_PATH = '../../src/main/resources/cyberpunk.theme.json'
 
-OPTION_PATTERN = re.compile('\s*<option name="([^"]+)" value="([^"]+)" />')
+OPTION_PATTERN = re.compile(r'\s*<option name="([^"]+)" value="([^"]+)" />')
 IGNORED_OPTION_NAMES = {
   'FONT_TYPE',
   'EFFECT_TYPE',

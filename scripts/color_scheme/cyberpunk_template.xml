@@ -182,6 +182,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value />
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="grey29" />
