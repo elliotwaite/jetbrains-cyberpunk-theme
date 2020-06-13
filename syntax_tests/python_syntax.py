@@ -4,6 +4,7 @@ Below are a lot of different kinds of python code to view what the syntax
 highlighting for it will look like.
 """
 import os
+import re
 
 
 def my_function(x):
@@ -44,6 +45,8 @@ def main():
   # TODO: This is what a todo item looks like.
   my_char = my_string[0].lower()
 
+  my_regex_pattern = re.compile(r'^[\w.-]+@([\w\-]+|\.)+[A-Z0-9]{2,4}(?x)')
+
   my_tuple = ("Test", 2 + 3, {'a': 'b'}, f'My str {my_number!s:{"^10"}}')
 
   # A single line comment.
@@ -62,8 +65,8 @@ def main():
     print(f.read())
 
   return (my_number, my_complex_number, my_bool, my_string, my_b_string,
-          my_u_string, my_f_string, my_tri_string, my_char, my_tuple,
-          my_list_of_strings, my_list_of_number, my_dict, str_len)
+          my_u_string, my_f_string, my_tri_string, my_char, my_regex_pattern,
+          my_tuple, my_list_of_strings, my_list_of_number, my_dict, str_len)
 
 
 if __name__ == '__main__':
