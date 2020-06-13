@@ -104,6 +104,9 @@
       "selectionForeground": "grey30",
       "separatorColor": "grey10"
     },
+    "OptionPane": {
+      "background": "grey8"
+    },
     "Panel": {
       "background": "grey8",
       "foreground": "grey23"
