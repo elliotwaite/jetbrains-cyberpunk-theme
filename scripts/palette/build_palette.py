@@ -23,19 +23,21 @@ and hue.
 The base color blue (#00F0FF) was taken from this Cyberpunk 2077 picture:
 https://www.facebook.com/CyberpunkGame/photos/a.384927278254777/2913293268751486/
 
-The red and orange were inspired by UI colors in this Cyberpunk 2077 picture:
+The red (#FF5952) was taken from the red button in this Cyberpunk 2077 picture:
 https://www.facebook.com/CyberpunkGame/photos/a.384927278254777/2363885590358926/
 
 The chosen colors for the theme, and their lightness, chroma, and hue indexes
-in the palette. (0 lightness being black, 0 chroma being grey, 0 hue being the
-base colors hue):
+in the palette are listed below (0 lightness being black, 0 chroma being grey,
+0 hue being the base colors hue):
 
+  Base color: #00F0FF
   Red:    #FF5952, (not in palette, was from the Cyberpunk 2077 picture)
   Orange: #FFB378, L: max, C: 2, H: 6
   Yellow: #FFEF94, L: max, C: 2, H: 7
   Green:  #00CA89, L: 22,  C: 4, H: 9
   Blue:   #00E0EF, L: 26,  C: 2, H: 0
   Purple: #C595E4, L: 22,  C: 2, H: 3
+
 """
 import math
 
@@ -233,27 +235,23 @@ def print_closest_color(colors, target_color):
 def draw_palette():
   colors = get_palette_colors(BASE_COLOR, NUM_L, NUM_C, NUM_H, CHROMA_INDEX_OF_BASE_COLOR)
   draw_svg(colors)
+  print('Colors:', colors)
 
   # Print how close the closest color in the palette was to a target color,
   # for when trying to generate palette that matches several colors.
-  print('Colors:', colors)
-  print('Blue')
-  print_closest_color(colors, '00f0ff')
-  print('Red')
-  print_closest_color(colors, 'ff003c')
-  print('Orange')
-  print_closest_color(colors, 'ff3f1f')
-  print('Yellow')
-  print_closest_color(colors, 'fff000')
-  print('Green')
-  print_closest_color(colors, '00f07f')
-  print('Dark Blue')
-  print_closest_color(colors, '0000ff')
-  print('Pink')
-  print_closest_color(colors, 'ff00ff')
-  print('UI Red')
-  # print_closest_color(colors, 'FF5952')
-  print_closest_color(colors, 'ff5a51')
+  target_colors = (
+    ('Blue', '00f0ff'),
+    ('Red', 'ff003c'),
+    ('Orange', 'ff3f1f'),
+    ('Yellow', 'fff000'),
+    ('Green', '00f07f'),
+    ('Dark Blue', '0000ff'),
+    ('Pink', 'ff00ff'),
+    ('UI Red', 'ff5952'),
+  )
+  for name, hex_str in target_colors:
+    print(name)
+    print_closest_color(colors, hex_str)
 
 
 def draw_hues_for_color(base_color_hex_str, num_hues=10):
