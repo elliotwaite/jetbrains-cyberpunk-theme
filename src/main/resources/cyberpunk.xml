@@ -141,7 +141,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="ca89" />
+        <option name="FOREGROUND" value="ededed" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -178,7 +178,7 @@
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="ca89" />
+        <option name="FOREGROUND" value="ededed" />
       </value>
     </option>
     <option name="HTML_TAG">

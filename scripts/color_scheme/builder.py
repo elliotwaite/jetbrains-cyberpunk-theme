@@ -136,7 +136,7 @@ def remap_darkula_template_to_cyberpunk_template():
       'orange': 'red',
       'yellow': 'blue',
       'green': 'yellow',
-      'blue': 'green',
+      'blue': 'grey30',
       # 'purple': 'purple',
     })
 
