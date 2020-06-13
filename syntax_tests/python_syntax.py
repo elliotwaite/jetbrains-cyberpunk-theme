@@ -1,36 +1,70 @@
-# Single line comment.
+"""A Python syntax highlighting test.
+
+Below are a lot of different kinds of python code to view what the syntax
+highlighting for it will look like.
+"""
+import os
 
 
-@decorator(param=1)
-def f(x):
-  """ Syntax Highlighting Demo
-      @param x Parameter
-
-      Semantic highlighting:
-      Generated spectrum to pick colors for local variables and parameters:
-       Color#1 SC1.1 SC1.2 SC1.3 SC1.4 Color#2 SC2.1 SC2.2 SC2.3 SC2.4 Color#3
-       Color#3 SC3.1 SC3.2 SC3.3 SC3.4 Color#4 SC4.1 SC4.2 SC4.3 SC4.4 Color#5
-  """
-  s = ("Test", 2 + 3, {'a': 'b'}, f'{x!s:{"^10"}}')  # Comment
-  f(s[0].lower())
-
-a = time
-class List:
-  pass
-
-class Foo:
-  tags: List[str]
-
-  def __init__(self: Foo):
-    byte_string: bytes = b'newline:\n also newline:\x0a'
-    text_string = u"Cyrillic  is \u042f. Oops: \u042g"
-    self.sense = None
-    self.make_sense(whatever=text_string)
-
-  def make_sense(self, whatever):
-    self.sense = whatever
+def my_function(x):
+  for i in range(x):
+    print(i, 'is a great number!')
 
 
-y = len('abc')
-print(f.__doc__)
+class MyClass:
+  def __init__(self):
+    self.prop_1 = 1
+    self.prop_2 = 'two'
+    self.prop_3 = False
 
+  def my_method(self, param_1, param_2):
+    self.prop_1 = param_1
+    self.prop_2 = param_2
+    self.my_static_method(num_1=param_1, num_2=param_2)
+
+  @staticmethod
+  def my_static_method(num_1, num_2):
+    nums_sum = sum(num_1, num_2)
+    print(nums_sum)
+
+
+def main():
+  my_number = 42
+  my_complex_number = 2 + 3j
+
+  my_bool = True
+
+  my_string = 'A string\n'
+  my_b_string = b'newline:\n also newline:\x0a'
+  my_u_string = u"Cyrillic Я is \u042f. Oops: \u042g"
+  my_f_string = f'My previous string, {my_string}, was great.'
+  my_tri_string = """This is a triple quoted string"""
+  an_unused_variable = 'This is not returned, so it is never used.'
+
+  # TODO: This is what a todo item looks like.
+  my_char = my_string[0].lower()
+
+  my_tuple = ("Test", 2 + 3, {'a': 'b'}, f'My str {my_number!s:{"^10"}}')
+
+  # A single line comment.
+  my_list_of_strings = ['a', 'b', 'c', 'c']
+  my_list_of_number = [1, 2, 3, 4]
+  my_dict = {
+    'a': 1,
+    'b': 2,
+    '3': 3,
+  }
+
+  my_function(10_000)
+
+  str_len = len('abc')
+  with open(os.path.abspath(__file__)) as f:
+    print(f.read())
+
+  return (my_number, my_complex_number, my_bool, my_string, my_b_string,
+          my_u_string, my_f_string, my_tri_string, my_char, my_tuple,
+          my_list_of_strings, my_list_of_number, my_dict, str_len)
+
+
+if __name__ == '__main__':
+  main()
