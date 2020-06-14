@@ -20,23 +20,44 @@ Along the top of the color palette will be a row colors that have the maximum
 possible lightness value before clipping for that column's specific chroma
 and hue.
 
-The base color blue (#00F0FF) was taken from this Cyberpunk 2077 picture:
+The cyberpunk color blue (#00F0FF) was taken from this Cyberpunk 2077 picture:
 https://www.facebook.com/CyberpunkGame/photos/a.384927278254777/2913293268751486/
 
-The red (#FF5952) was taken from the red button in this Cyberpunk 2077 picture:
+The cyberpunk red (#FF5952) and cyberpunk orange (#FFBD7D) were taken from the
+red and orange UI elements in this Cyberpunk 2077 picture:
 https://www.facebook.com/CyberpunkGame/photos/a.384927278254777/2363885590358926/
 
-The chosen colors for the theme, and their lightness, chroma, and hue indexes
-in the palette are listed below (0 lightness being black, 0 chroma being grey,
-0 hue being the base colors hue):
+Cyberpunk blue: #00F0FF (base color)
+  L: 86.76833059325895
+  C: 46.35777632716608
+  H: -2.6792770452854326
 
-  Base color: #00F0FF
-  Red:    #FF5952, (not in palette, was from the Cyberpunk 2077 picture)
-  Orange: #FFB378, L: max, C: 2, H: 6
-  Yellow: #FFEF94, L: max, C: 2, H: 7
-  Green:  #00CA89, L: 22,  C: 4, H: 9
-  Blue:   #00E0EF, L: 26,  C: 2, H: 0
-  Purple: #C595E4, L: 22,  C: 2, H: 3
+Cyberpunk red: #FF5952
+  L: 60.79840451387447
+  C: 73.58963490378852
+  H: 0.5563143684433922
+
+Cyberpunk orange: #FFBD7D
+  L: 81.36795524748165
+  C: 44.66210718064023
+  H: 1.1903739435486187
+
+The cyberpunk blue was used as the base color to generate a palette, and then
+the following colors were chosen. The cyberpunk red looked better than any red
+in the palette so it was used instead (it's the only color used that was not
+in the generated palette). To the right of the colors are listed their
+lightness, chroma, and hue indexes in the palette (0 lightness being black,
+0 chroma being grey, 0 hue being the base color's hue):
+
+  red:       #FF5952, (not in palette, but closest color in palette was
+                      L: max, C: 3, H: 16)
+  orange:    #FFC07A, L: max, C: 2, H: 20
+  yellow:    #FFE68D, L: max, C: 2, H: 22
+  green:     #0FC166, L: 22,  C: 3, H: 27
+  lightBlue: #00E0EF, L: 26,  C: 2, H: 0
+  darkBlue:  #1DBBFF, L: max, C: 2, H: 4
+  purple:    #D59BE8, L: 23,  C: 2, H: 10
+  pink:      #FFAEF4, L: max, C: 2, H: 11
 
 """
 import math
@@ -71,7 +92,7 @@ CHROMA_INDEX_OF_BASE_COLOR = 2
 
 # The number of different hues. The base color's hue will be one of the hues
 # and the other hues will equally divide the 360 degree range.
-NUM_H = 10
+NUM_H = 32
 
 # The size of the color patches in the SVG image, and the size of the inner
 # squares that indicate if that color was clipped.
@@ -84,13 +105,6 @@ OUTPUT_PATH = 'palette.svg'
 
 # This is the standard illuminant value used by sRGB, 6500 Kelvin daylight.
 ILLUMINANT = 'd65'
-
-# The number of different lightness values to check when searching for the
-# max-lightness unclipped color for each chroma and hue. The higher the value
-# the more accurate the results, but the longer it takes to compute. The value
-# of 10,000 is a bit arbitrary but it seemed like a good balance. This value
-# can be reduced if generating large palettes and it is taking too long.
-NUM_LIGHTNESS_VALUES_TO_CHECK = 10_000
 
 
 def draw_svg(colors):
@@ -159,10 +173,27 @@ def lch_to_hex_str_and_clip_amount(l, c, h):
 
 
 def get_lightest_unclipped_color(c, h):
-  for l in np.linspace(100, 0, NUM_LIGHTNESS_VALUES_TO_CHECK):
-    hex_str, clip_amount = lch_to_hex_str_and_clip_amount(l, c, h)
-    if clip_amount == 0:
-      return hex_str, clip_amount
+  a, b = ch_to_ab(c, h)
+  if c == 0:
+    return '#ffffff', 0
+
+  # Run a binary search to find the lightest unclipped color.
+  max_rgb_color = None
+  cur_l = 50
+  delta = 25
+  while delta > 0:
+    lab_color = LabColor(cur_l, a, b, illuminant=ILLUMINANT)
+    rgb_color = convert_color(lab_color, sRGBColor)
+    if get_clip_amount(rgb_color) == 0:
+      max_rgb_color = rgb_color
+      cur_l += delta
+    else:
+      cur_l -= delta
+
+    delta /= 2
+
+  hex_str = max_rgb_color.get_rgb_hex()
+  return hex_str, 0
 
 
 def get_shades(start_l, end_l, num_l, c, h):
@@ -237,17 +268,12 @@ def draw_palette():
   draw_svg(colors)
   print('Colors:', colors)
 
-  # Print how close the closest color in the palette was to a target color,
+  # Print how close the closest color in the palette is to a target color,
   # for when trying to generate palette that matches several colors.
   target_colors = (
-    ('Blue', '00f0ff'),
-    ('Red', 'ff003c'),
-    ('Orange', 'ff3f1f'),
-    ('Yellow', 'fff000'),
-    ('Green', '00f07f'),
-    ('Dark Blue', '0000ff'),
-    ('Pink', 'ff00ff'),
-    ('UI Red', 'ff5952'),
+    ('Blue', '00F0FF'),
+    ('Red', 'FF5952'),
+    ('Orange', 'FFBD7D'),
   )
   for name, hex_str in target_colors:
     print(name)

@@ -1,10 +1,6 @@
 import json
 import re
 
-EXPORTED_COLOR_SCHEME_PATH = 'exported_color_scheme.icls'
-COLOR_SCHEME_TEMPLATE_PATH = 'color_scheme_template.xml'
-THEME_PATH = '../../src/main/resources/cyberpunk.theme.json'
-
 OPTION_PATTERN = re.compile(r'\s*<option name="([^"]+)" value="([^"]+)" />')
 IGNORED_OPTION_NAMES = {
   'FONT_TYPE',
@@ -82,9 +78,12 @@ def convert_exported_color_scheme_to_color_scheme_template(source_path, output_p
     f.writelines(output_lines)
 
 
-def remap_color_scheme_colors(source_path, output_path, color_map):
+def remap_color_scheme_colors(source_path, output_path, color_map_path):
   with open(source_path) as f:
     input_lines = f.readlines()
+
+  with open(color_map_path) as f:
+    color_map = json.load(f)
 
   output_lines = []
   for line in input_lines:
@@ -131,14 +130,7 @@ def remap_darkula_template_to_cyberpunk_template():
   remap_color_scheme_colors(
     source_path='darkula_template.xml',
     output_path='cyberpunk_template.xml',
-    color_map={
-      'red': 'orange',
-      'orange': 'red',
-      'yellow': 'blue',
-      'green': 'yellow',
-      'blue': 'grey30',
-      # 'purple': 'purple',
-    })
+    color_map_path='darkula_to_cyberpunk_color_map.json')
 
 
 def build_cyberpunk_color_scheme():

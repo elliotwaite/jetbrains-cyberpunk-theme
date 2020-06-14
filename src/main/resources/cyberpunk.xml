@@ -16,16 +16,16 @@
     <option name="TEARLINE_COLOR" value="515151" />
     <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="3b3b3b" />
-    <option name="FILESTATUS_ADDED" value="ca89" />
-    <option name="FILESTATUS_addedOutside" value="ca89" />
+    <option name="FILESTATUS_ADDED" value="fc166" />
+    <option name="FILESTATUS_addedOutside" value="fc166" />
     <option name="FILESTATUS_changelistConflict" value="ff5952" />
-    <option name="FILESTATUS_COPIED" value="ca89" />
+    <option name="FILESTATUS_COPIED" value="fc166" />
     <option name="FILESTATUS_DELETED" value="676767" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="676767" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="e0ef" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="e0ef" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="777777" />
-    <option name="FILESTATUS_MERGED" value="c595e4" />
+    <option name="FILESTATUS_MERGED" value="d59be8" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff5952" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff5952" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff5952" />
@@ -69,12 +69,12 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="ffb378" />
+        <option name="FOREGROUND" value="ffc07a" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -86,9 +86,9 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="ffef94" />
+        <option name="FOREGROUND" value="ffe68d" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="ffef94" />
+        <option name="EFFECT_COLOR" value="ffe68d" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -99,7 +99,7 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="ffef94" />
+        <option name="FOREGROUND" value="ffe68d" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -114,12 +114,12 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ffef94" />
+        <option name="FOREGROUND" value="ffe68d" />
         <option name="EFFECT_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -141,17 +141,17 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="ededed" />
+        <option name="FOREGROUND" value="1dbbff" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="ffb378" />
+        <option name="FOREGROUND" value="ffc07a" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -163,7 +163,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="ffef94" />
+        <option name="FOREGROUND" value="ffe68d" />
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
@@ -173,12 +173,12 @@
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="ffef94" />
+        <option name="FOREGROUND" value="ffe68d" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="ededed" />
+        <option name="FOREGROUND" value="1dbbff" />
       </value>
     </option>
     <option name="HTML_TAG">
@@ -216,7 +216,7 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
       </value>
     </option>
     <option name="PY.DECORATOR">
@@ -232,27 +232,27 @@
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="ffb378" />
+        <option name="FOREGROUND" value="ffc07a" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
       </value>
     </option>
     <option name="PY.STRING.B">
       <value>
-        <option name="FOREGROUND" value="ffef94" />
+        <option name="FOREGROUND" value="ffe68d" />
       </value>
     </option>
     <option name="REGEXP.BRACES">
@@ -296,13 +296,13 @@
     </option>
     <option name="REGEXP.REDUNDANT_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="d59be8" />
       </value>
     </option>
     <option name="TEXT">

@@ -39,15 +39,13 @@
     "white": "#ffffff",
 
     "red": "#FF5952",
-    "orange": "#FFB378",
-    "yellow": "#FFEF94",
-    "green": "#00CA89",
-    "blue": "#00E0EF",
-    "purple": "#C595E4",
-
-    "fileStatusRed": "#FF5952",
-    "fileStatusGreen": "#00CA89",
-    "fileStatusBlue": "#00E0EF",
+    "orange": "#FFC07A",
+    "yellow": "#FFE68D",
+    "green": "#0FC166",
+    "lightBlue": "#00E0EF",
+    "darkBlue": "#1DBBFF",
+    "purple": "#D59BE8",
+    "pink": "#FFAEF4",
 
     "error": "#FF0000"
   },
@@ -87,7 +85,7 @@
     "Editor": {
       "background": "grey4",
       "foreground": "grey23",
-      "shortcutForeground": "blue"
+      "shortcutForeground": "lightBlue"
     },
     "EditorTabs": {
       "underlinedTabBackground": "grey6"
@@ -119,9 +117,9 @@
     },
     "ProgressBar": {
       "trackColor": "grey4",
-      "progressColor": "blue",
-      "indeterminateStartColor": "blue",
-      "indeterminateEndColor": "purple"
+      "progressColor": "lightBlue",
+      "indeterminateStartColor": "lightBlue",
+      "indeterminateEndColor": "pink"
     },
     "RadioButton": {
       "background": "grey8"
