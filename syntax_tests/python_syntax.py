@@ -35,7 +35,7 @@ def main():
 
   my_bool = True
 
-  my_string = 'A string\n'
+  my_string = 'A string with a typo: asdf\n'
   my_b_string = b'newline:\n also newline:\x0a'
   my_u_string = u"Cyrillic Я is \u042f. Oops: \u042g"
   my_f_string = f'My previous string, {my_string}, was great.'
