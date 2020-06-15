@@ -20,7 +20,7 @@ Along the top of the color palette will be a row colors that have the maximum
 possible lightness value before clipping for that column's specific chroma
 and hue.
 
-The cyberpunk color blue (#00F0FF) was taken from this Cyberpunk 2077 picture:
+The cyberpunk blue (#00F0FF) was taken from this Cyberpunk 2077 picture:
 https://www.facebook.com/CyberpunkGame/photos/a.384927278254777/2913293268751486/
 
 The cyberpunk red (#FF5952) and cyberpunk orange (#FFBD7D) were taken from the
@@ -43,18 +43,18 @@ Cyberpunk orange: #FFBD7D
   H: 1.1903739435486187
 
 The cyberpunk blue was used as the base color to generate a palette, and then
-the following colors were chosen. The cyberpunk red looked better than any red
-in the palette so it was used instead (it's the only color used that was not
-in the generated palette). To the right of the colors are listed their
-lightness, chroma, and hue indexes in the palette (0 lightness being black,
-0 chroma being grey, 0 hue being the base color's hue):
+the following colors were chosen for the theme. The cyberpunk red looked better
+than any of the reds in the palette so it was used instead of a palette color
+(it's the only color used that was not in the generated palette). To the right
+of the colors are listed their lightness (L), chroma (C), and hue (H) indexes
+in the palette, 0 lightness being black, 0 chroma being grey, 0 hue being the
+hue of the base color (cyberpunk blue):
 
-  red:       #FF5952, (not in palette, but closest color in palette was
-                      L: max, C: 3, H: 16)
-  orange:    #FFC07A, L: max, C: 2, H: 20
+  red:       #FF5952, (cyberpunk red)
+  orange:    #FFC07A, L: max, C: 2, H: 20 (similar to cyberpunk orange)
   yellow:    #FFE68D, L: max, C: 2, H: 22
   green:     #0FC166, L: 22,  C: 3, H: 27
-  lightBlue: #00E0EF, L: 26,  C: 2, H: 0
+  lightBlue: #00E0EF, L: 26,  C: 2, H: 0 (a darker version of cyberpunk blue)
   darkBlue:  #1DBBFF, L: max, C: 2, H: 4
   purple:    #D59BE8, L: 23,  C: 2, H: 10
   pink:      #FFAEF4, L: max, C: 2, H: 11
