@@ -21,6 +21,8 @@ IGNORED_UI_KEY_ENDINGS = (
   '.nonFocusedMask',
 )
 
+KEYS_WITH_UNFLATTENED_CHILDREN = {'ColorPalette'}
+
 
 def phi_shuffled(input_iterable):
   PHI = (1 + 5 ** 0.5) / 2
@@ -74,7 +76,10 @@ def unflatten_dict(source_dict):
       if keys[0] not in target_dict:
         target_dict[keys[0]] = {}
       target_dict = target_dict[keys[0]]
-      keys = keys[1:]
+      if keys[0] in KEYS_WITH_UNFLATTENED_CHILDREN:
+        keys = ['.'.join(keys[1:])]
+      else:
+        keys = keys[1:]
     target_dict[keys[0]] = val
 
   return output_dict

@@ -43,7 +43,6 @@
       "arc": "#0058ff",
       "background": "#a3ff00",
       "default": {
-        "endBackground": "#ff00ec",
         "endBorderColor": "#00ffc7",
         "focusColor": "#ff7c00",
         "focusedBorderColor": "#3300ff",
@@ -807,68 +806,32 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions": {
-        "Blue": "#004bff",
-        "Green": "#96ff00",
-        "Grey": "#ff00df",
-        "GreyInline": {
-          "Dark": "#00ffd3"
-        },
-        "Red": "#ff8900",
-        "Yellow": "#4000ff"
-      },
-      "Checkbox": {
-        "Background": {
-          "Default": {
-            "Dark": "#0bff00"
-          },
-          "Disabled": {
-            "Dark": "#ff0055"
-          }
-        },
-        "Border": {
-          "Default": {
-            "Dark": "#00a1ff"
-          },
-          "Disabled": {
-            "Dark": "#ebff00"
-          }
-        },
-        "Focus": {
-          "Thin": {
-            "Default": {
-              "Dark": "#c900ff"
-            },
-            "Selected": {
-              "Dark": "#00ff7e"
-            }
-          },
-          "Wide": {
-            "Dark": "#ff3400"
-          }
-        },
-        "Foreground": {
-          "Disabled": {
-            "Dark": "#0016ff"
-          },
-          "Selected": {
-            "Dark": "#60ff00"
-          }
-        }
-      },
-      "Objects": {
-        "BlackText": "#ff00aa",
-        "Blue": "#00f6ff",
-        "Green": "#ffbe00",
-        "GreenAndroid": "#7400ff",
-        "Grey": "#00ff29",
-        "Pink": "#ff0021",
-        "Purple": "#006cff",
-        "Red": "#b7ff00",
-        "RedStatus": "#fe00ff",
-        "Yellow": "#00ffb2",
-        "YellowDark": "#ff6800"
-      }
+      "Actions.Blue": "#004bff",
+      "Actions.Green": "#96ff00",
+      "Actions.Grey": "#ff00df",
+      "Actions.GreyInline.Dark": "#00ffd3",
+      "Actions.Red": "#ff8900",
+      "Actions.Yellow": "#4000ff",
+      "Checkbox.Background.Default.Dark": "#0bff00",
+      "Checkbox.Background.Disabled.Dark": "#ff0055",
+      "Checkbox.Border.Default.Dark": "#00a1ff",
+      "Checkbox.Border.Disabled.Dark": "#ebff00",
+      "Checkbox.Focus.Thin.Default.Dark": "#c900ff",
+      "Checkbox.Focus.Thin.Selected.Dark": "#00ff7e",
+      "Checkbox.Focus.Wide.Dark": "#ff3400",
+      "Checkbox.Foreground.Disabled.Dark": "#0016ff",
+      "Checkbox.Foreground.Selected.Dark": "#60ff00",
+      "Objects.BlackText": "#ff00aa",
+      "Objects.Blue": "#00f6ff",
+      "Objects.Green": "#ffbe00",
+      "Objects.GreenAndroid": "#7400ff",
+      "Objects.Grey": "#00ff29",
+      "Objects.Pink": "#ff0021",
+      "Objects.Purple": "#006cff",
+      "Objects.Red": "#b7ff00",
+      "Objects.RedStatus": "#fe00ff",
+      "Objects.Yellow": "#00ffb2",
+      "Objects.YellowDark": "#ff6800"
     }
   }
 }
