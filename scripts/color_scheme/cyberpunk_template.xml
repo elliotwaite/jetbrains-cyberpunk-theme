@@ -6,6 +6,8 @@
     <option name="DOCUMENTATION_COLOR" value="grey9" />
     <option name="GUTTER_BACKGROUND" value="grey7" />
     <option name="INDENT_GUIDE" value="grey7" />
+    <option name="LINE_NUMBERS_COLOR" value="grey14" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="grey21" />
     <option name="METHOD_SEPARATORS_COLOR" value="grey10" />
     <option name="MODIFIED_LINES_COLOR" value="grey8" />
     <option name="RIGHT_MARGIN_COLOR" value="grey10" />

@@ -1,9 +1,9 @@
 <scheme name="ZDarcula" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-06-12T13:53:13</property>
+    <property name="created">2020-06-17T12:01:25</property>
     <property name="ide">PyCharmCore</property>
-    <property name="ideVersion">2020.1.1.0.0</property>
-    <property name="modified">2020-06-12T13:53:36</property>
+    <property name="ideVersion">2020.1.2.0.0</property>
+    <property name="modified">2020-06-17T12:01:51</property>
     <property name="originalScheme">ZDarcula</property>
   </metaInfo>
   <colors>
@@ -13,6 +13,8 @@
     <option name="DOCUMENTATION_COLOR" value="424242" />
     <option name="GUTTER_BACKGROUND" value="343434" />
     <option name="INDENT_GUIDE" value="343434" />
+    <option name="LINE_NUMBERS_COLOR" value="676767" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="9f9f9f" />
     <option name="METHOD_SEPARATORS_COLOR" value="4a4a4a" />
     <option name="MODIFIED_LINES_COLOR" value="3b3b3b" />
     <option name="RIGHT_MARGIN_COLOR" value="4a4a4a" />

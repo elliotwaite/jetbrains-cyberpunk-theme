@@ -5,6 +5,7 @@ directly in the 'src/main/resources/cyberpunk.theme.json'.
 
 To update the color scheme:
   1. Modify a version of Darcula.
+  2. Apply the new settings (click the OK), then reopen the preferences window.
   2. Export the color scheme to '/scripts/color_scheme/modified_darcula.icls'.
   3. Run the builder: 'scripts/color_scheme/builder.py'
 
