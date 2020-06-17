@@ -81,7 +81,7 @@
       }
     },
     "ComboBoxButton": {
-      "background": "grey6"
+      "background": "grey10"
     },
     "CompletionPopup": {
       "foreground": "grey23",
@@ -103,6 +103,9 @@
       "background": "grey4",
       "foreground": "grey23",
       "shortcutForeground": "lightBlue"
+    },
+    "EditorPane": {
+      "inactiveBackground": "grey6"
     },
     "EditorTabs": {
       "inactiveUnderlineColor": "grey6",
