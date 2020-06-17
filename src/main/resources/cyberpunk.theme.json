@@ -59,18 +59,12 @@
     },
     "Button": {
       "background": "grey8",
-      "disabledBorderColor": "grey7",
+      "disabledBorderColor": "grey10",
       "disabledText": "grey17",
       "endBackground": "grey10",
-      "endBorderColor": "grey6",
       "foreground": "grey25",
-      "shadowColor": "#383838",
-      "startBackground": "grey10",
-      "startBorderColor": "grey6",
       "default": {
-        "endBorderColor": "grey6",
-        "foreground": "grey25",
-        "startBorderColor": "grey6"
+        "foreground": "grey25"
       }
     },
     "CheckBox": {
