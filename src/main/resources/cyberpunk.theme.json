@@ -224,7 +224,7 @@
   "icons": {
     "ColorPalette": {
       "Actions.Blue": "#009CFF",
-      "Actions.Green": "#00B85E",
+      "Actions.Green": "#0FC166",
       "Actions.Grey": "#b0b0b0",
       "Actions.GreyInline.Dark": "#b0b0b0",
       "Actions.Red": "#FF5952",
@@ -236,8 +236,8 @@
       "Checkbox.Foreground.Selected.Dark": "#b0b0b0",
       "Objects.BlackText": "#3b3b3b",
       "Objects.Blue": "#009CFF",
-      "Objects.Green": "#00B85E",
-      "Objects.GreenAndroid": "#00B85E",
+      "Objects.Green": "#0FC166",
+      "Objects.GreenAndroid": "#0FC166",
       "Objects.Grey": "#b0b0b0",
       "Objects.Pink": "#FFAEF4",
       "Objects.Purple": "#D59BE8",
