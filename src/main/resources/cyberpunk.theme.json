@@ -51,6 +51,7 @@
   },
   "ui": {
     "*": {
+      "background": "grey8",
       "disabledBackground": "grey8"
     },
     "Borders": {
@@ -63,6 +64,7 @@
       "disabledText": "grey17",
       "endBackground": "grey10",
       "foreground": "grey25",
+      "startBackground": "grey10",
       "default": {
         "foreground": "grey25"
       }
@@ -107,6 +109,10 @@
       "underlineColor": "grey6",
       "underlinedTabBackground": "grey6"
     },
+    "Label": {
+      "disabledForeground": "grey17",
+      "foreground": "grey23"
+    },
     "List": {
       "background": "grey8",
       "foreground": "grey23",
@@ -118,6 +124,10 @@
       "foreground": "grey23",
       "selectionForeground": "grey30",
       "separatorColor": "grey10"
+    },
+    "Notification": {
+      "background": "grey10",
+      "borderColor": "grey10"
     },
     "OptionPane": {
       "background": "grey8"
@@ -135,6 +145,12 @@
       "SectionHeader": {
         "background": "grey8",
         "foreground": "grey23"
+      }
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "grey10",
+        "inactiveBackground": "grey9"
       }
     },
     "PopupMenu": {
@@ -189,9 +205,9 @@
     },
     "ToolTip": {
       "Actions": {
-        "background": "grey8"
+        "background": "grey10"
       },
-      "background": "grey8"
+      "background": "grey10"
     },
     "Tree": {
       "background": "grey6",
@@ -199,6 +215,10 @@
       "selectionBackground": "grey10",
       "selectionForeground": "grey30",
       "selectionInactiveBackground": "grey8"
+    },
+    "WelcomeScreen": {
+      "background": "grey6",
+      "separatorColor": "#2a2a2a"
     }
   },
   "icons": {
