@@ -53,7 +53,7 @@ hue of the base color (cyberpunk blue):
   red:       #FF5952, (cyberpunk red)
   orange:    #FFC07A, L: max, C: 2, H: 20 (similar to cyberpunk orange)
   yellow:    #FFE68D, L: max, C: 2, H: 22
-  green:     #0FC166, L: 22,  C: 3, H: 27
+  green:     #0FC166, L: 21,  C: 3, H: 27
   lightBlue: #00E0EF, L: 26,  C: 2, H: 0 (a darker version of cyberpunk blue)
   darkBlue:  #1DBBFF, L: max, C: 2, H: 4
   purple:    #D59BE8, L: 23,  C: 2, H: 10

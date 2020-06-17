@@ -51,20 +51,41 @@
   },
   "ui": {
     "*": {
-      "disabledBackground": "grey10"
+      "disabledBackground": "grey8"
     },
     "Borders": {
       "color": "grey5",
       "ContrastBorderColor": "grey5"
     },
     "Button": {
-      "background": "grey8"
+      "background": "grey8",
+      "disabledBorderColor": "grey7",
+      "disabledText": "grey17",
+      "endBackground": "grey10",
+      "endBorderColor": "grey6",
+      "foreground": "grey25",
+      "shadowColor": "#383838",
+      "startBackground": "grey10",
+      "startBorderColor": "grey6",
+      "default": {
+        "endBorderColor": "grey6",
+        "foreground": "grey25",
+        "startBorderColor": "grey6"
+      }
     },
     "CheckBox": {
       "background": "grey8"
     },
     "ComboBox": {
-      "nonEditableBackground": "grey7"
+      "background": "grey6",
+      "nonEditableBackground": "grey6",
+      "ArrowButton": {
+        "background": "grey6",
+        "nonEditableBackground": "grey6"
+      }
+    },
+    "ComboBoxButton": {
+      "background": "grey6"
     },
     "CompletionPopup": {
       "foreground": "grey23",
@@ -73,14 +94,14 @@
       "selectionInactiveBackground": "grey10"
     },
     "Component": {
-      "borderColor": "grey10",
+      "borderColor": "grey5",
       "disabledBorderColor": "grey10"
     },
     "DefaultTabs": {
       "background": "grey8",
       "hoverBackground": "grey6",
-      "inactiveUnderlineColor": "grey6",
-      "underlineColor": "grey6"
+      "inactiveUnderlineColor": "grey17",
+      "underlineColor": "grey23"
     },
     "Editor": {
       "background": "grey4",
@@ -88,6 +109,8 @@
       "shortcutForeground": "lightBlue"
     },
     "EditorTabs": {
+      "inactiveUnderlineColor": "grey6",
+      "underlineColor": "grey6",
       "underlinedTabBackground": "grey6"
     },
     "List": {
@@ -110,7 +133,15 @@
       "foreground": "grey23"
     },
     "Plugins": {
-      "lightSelectionBackground": "grey10"
+      "background": "grey6",
+      "lightSelectionBackground": "grey9",
+      "SearchField": {
+        "borderColor": "grey5"
+      },
+      "SectionHeader": {
+        "background": "grey8",
+        "foreground": "grey23"
+      }
     },
     "PopupMenu": {
       "background": "grey8"
@@ -127,13 +158,27 @@
     "SidePanel": {
       "background": "grey8"
     },
+    "Slider": {
+      "background": "grey8"
+    },
     "Spinner": {
       "background": "grey8"
     },
     "StatusBar": {
       "borderColor": "grey5",
       "hoverBackground": "grey6"
-    },    "ToolWindow": {
+    },
+    "Table": {
+      "background": "grey6",
+      "stripeColor": "grey7"
+    },
+    "TableHeader": {
+      "background": "grey8"
+    },
+    "TextField": {
+      "background": "grey6"
+    },
+    "ToolWindow": {
       "Button": {
         "hoverBackground": "grey6",
         "selectedBackground": "grey6",
@@ -145,7 +190,8 @@
       }
     },
     "TabbedPane": {
-      "background": "grey8"
+      "background": "grey8",
+      "hoverColor": "grey6"
     },
     "ToolTip": {
       "Actions": {
@@ -159,6 +205,32 @@
       "selectionBackground": "grey10",
       "selectionForeground": "grey30",
       "selectionInactiveBackground": "grey8"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#009CFF",
+      "Actions.Green": "#00B85E",
+      "Actions.Grey": "#b0b0b0",
+      "Actions.GreyInline.Dark": "#b0b0b0",
+      "Actions.Red": "#FF5952",
+      "Actions.Yellow": "#FFE68D",
+      "Checkbox.Background.Default.Dark": "#2e2e2e",
+      "Checkbox.Background.Disabled.Dark": "#3b3b3b",
+      "Checkbox.Border.Default.Dark": "#272727",
+      "Checkbox.Border.Disabled.Dark": "#4a4a4a",
+      "Checkbox.Foreground.Selected.Dark": "#b0b0b0",
+      "Objects.BlackText": "#3b3b3b",
+      "Objects.Blue": "#009CFF",
+      "Objects.Green": "#00B85E",
+      "Objects.GreenAndroid": "#00B85E",
+      "Objects.Grey": "#b0b0b0",
+      "Objects.Pink": "#FFAEF4",
+      "Objects.Purple": "#D59BE8",
+      "Objects.Red": "#FF5952",
+      "Objects.RedStatus": "#FF5952",
+      "Objects.Yellow": "#FFE68D",
+      "Objects.YellowDark": "#FFC07A"
     }
   }
 }
