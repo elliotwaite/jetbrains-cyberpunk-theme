@@ -113,6 +113,9 @@
       "disabledForeground": "grey17",
       "foreground": "grey23"
     },
+    "Link": {
+      "pressedForeground": "#589DF6"
+    },
     "List": {
       "background": "grey8",
       "foreground": "grey23",
