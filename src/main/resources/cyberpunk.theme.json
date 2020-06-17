@@ -218,7 +218,7 @@
     },
     "WelcomeScreen": {
       "background": "grey6",
-      "separatorColor": "#2a2a2a"
+      "separatorColor": "grey6"
     }
   },
   "icons": {
