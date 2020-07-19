@@ -104,6 +104,11 @@
         <option name="FOREGROUND" value="eedb85" />
       </value>
     </option>
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="f0ff" />
+      </value>
+    </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="f0ff" />
@@ -239,7 +244,7 @@
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="ffc07a" />
+        <option name="FOREGROUND" value="d867c6" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">

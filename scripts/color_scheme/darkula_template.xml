@@ -88,6 +88,11 @@
         <option name="FOREGROUND" value="green" />
       </value>
     </option>
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="yellow" />
+      </value>
+    </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FOREGROUND" value="yellow" />
@@ -223,7 +228,7 @@
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="red" />
+        <option name="FOREGROUND" value="purple" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
