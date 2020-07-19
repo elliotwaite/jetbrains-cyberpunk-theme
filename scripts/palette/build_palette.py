@@ -78,7 +78,7 @@ BASE_COLOR = '00f0ff'  # Cyberpunk blue.
 NUM_L = 33
 
 # The number of different chroma values.
-NUM_C = 5
+NUM_C = 7
 
 # Which index in the different chromas will match the base color's chroma.
 # E.g. If this is set to 2 when NUM_C is 5, the middle chroma will have the
@@ -88,7 +88,7 @@ NUM_C = 5
 #   chroma 2: the base color's chroma
 #   chroma 3: 3/2 the base color's chroma
 #   chroma 4: double the base color's chroma
-CHROMA_INDEX_OF_BASE_COLOR = 2
+CHROMA_INDEX_OF_BASE_COLOR = 4
 
 # The number of different hues. The base color's hue will be one of the hues
 # and the other hues will equally divide the 360 degree range.
@@ -98,8 +98,10 @@ NUM_H = 32
 # squares that indicate if that color was clipped.
 PATCH_SQUARE_SIZE = (50, 50)
 CLIP_SQUARE_SIZE = (PATCH_SQUARE_SIZE[0] // 5, PATCH_SQUARE_SIZE[1] // 5)
-CLIP_SQUARE_OFFSET = ((PATCH_SQUARE_SIZE[0] - CLIP_SQUARE_SIZE[0]) // 2,
-                      (PATCH_SQUARE_SIZE[1] - CLIP_SQUARE_SIZE[1]) // 2)
+CLIP_SQUARE_OFFSET = (
+    (PATCH_SQUARE_SIZE[0] - CLIP_SQUARE_SIZE[0]) // 2,
+    (PATCH_SQUARE_SIZE[1] - CLIP_SQUARE_SIZE[1]) // 2,
+)
 
 OUTPUT_PATH = 'palette.svg'
 
@@ -108,200 +110,207 @@ ILLUMINANT = 'd65'
 
 
 def draw_svg(colors):
-  width = len(colors) * PATCH_SQUARE_SIZE[0]
-  height = len(colors[0]) * PATCH_SQUARE_SIZE[1]
-  dwg = svgwrite.Drawing(OUTPUT_PATH, size=(width, height), profile='tiny')
-  for hue_index, hue_shades in enumerate(colors):
-    for shade_index, color in enumerate(hue_shades):
-      hex_str, clip_amount = color
-      x = hue_index * PATCH_SQUARE_SIZE[0]
-      y = height - ((shade_index + 1) * PATCH_SQUARE_SIZE[1])  # darker colors at the bottom.
-      dwg.add(dwg.rect((x, y), PATCH_SQUARE_SIZE, fill=hex_str))
+    width = len(colors) * PATCH_SQUARE_SIZE[0]
+    height = len(colors[0]) * PATCH_SQUARE_SIZE[1]
+    dwg = svgwrite.Drawing(OUTPUT_PATH, size=(width, height), profile='tiny')
+    for hue_index, hue_shades in enumerate(colors):
+        for shade_index, color in enumerate(hue_shades):
+            hex_str, clip_amount = color
+            x = hue_index * PATCH_SQUARE_SIZE[0]
 
-      # If a color channel was clipped by more than 1 / 512, that means the
-      # channel value would have at least rounded up to be out of range.
-      if clip_amount > 1 / 512:
+            y = height - ((shade_index + 1) * PATCH_SQUARE_SIZE[1])
+            # This positions the darker colors at the bottom.
 
-        if clip_amount >= 1 / 32:
-          fill = '#000'  # It was clipped by more than 8 bits.
-        elif clip_amount >= 1 / 64:
-          fill = '#666'  # It was clipped by between 4 and 8 bits.
-        elif clip_amount >= 1 / 128:
-          fill = '#999'  # It was clipped by between 3 and 4 bits.
-        elif clip_amount >= 1 / 256:
-          fill = '#ccc'  # It was clipped by between 1 and 2 bits.
-        else:
-          fill = '#fff'  # It was clipped by between .5 and 1 bits.
+            dwg.add(dwg.rect((x, y), PATCH_SQUARE_SIZE, fill=hex_str))
 
-        x += CLIP_SQUARE_OFFSET[0]
-        y += CLIP_SQUARE_OFFSET[1]
-        dwg.add(dwg.rect((x, y), CLIP_SQUARE_SIZE, fill=fill))
+            # If a color channel was clipped by more than 1 / 512, that
+            # means the channel value would have at least rounded up to
+            # be out of range.
+            if clip_amount > 1 / 512:
 
-  dwg.save()
+                if clip_amount >= 1 / 32:
+                    # It was clipped by more than 8 bits.
+                    fill = '#000'
+                elif clip_amount >= 1 / 64:
+                    # It was clipped by between 4 and 8 bits.
+                    fill = '#666'
+                elif clip_amount >= 1 / 128:
+                    # It was clipped by between 3 and 4 bits.
+                    fill = '#999'
+                elif clip_amount >= 1 / 256:
+                    # It was clipped by between 1 and 2 bits.
+                    fill = '#ccc'
+                else:
+                    # It was clipped by between .5 and 1 bits.
+                    fill = '#fff'
+
+                x += CLIP_SQUARE_OFFSET[0]
+                y += CLIP_SQUARE_OFFSET[1]
+                dwg.add(dwg.rect((x, y), CLIP_SQUARE_SIZE, fill=fill))
+
+    dwg.save()
 
 
 def ab_to_ch(a, b):
-  c = (a ** 2 + b ** 2) ** 0.5
-  h = math.atan2(b, a)
-  return c, h
+    c = (a ** 2 + b ** 2) ** 0.5
+    h = math.atan2(b, a)
+    return c, h
 
 
 def ch_to_ab(c, h):
-  a = c * math.cos(h)
-  b = c * math.sin(h)
-  return a, b
+    a = c * math.cos(h)
+    b = c * math.sin(h)
+    return a, b
 
 
 def get_clip_amount(rgb_color):
-  return max(0, rgb_color.rgb_r - 1, rgb_color.rgb_g - 1, rgb_color.rgb_b - 1)
+    return max(0, rgb_color.rgb_r - 1, rgb_color.rgb_g - 1, rgb_color.rgb_b - 1)
 
 
 def get_clamped_rgb_color(rgb_color):
-  return sRGBColor(rgb_color.clamped_rgb_r,
-                   rgb_color.clamped_rgb_g,
-                   rgb_color.clamped_rgb_b)
+    return sRGBColor(rgb_color.clamped_rgb_r, rgb_color.clamped_rgb_g, rgb_color.clamped_rgb_b)
 
 
 def lch_to_hex_str_and_clip_amount(l, c, h):
-  a, b = ch_to_ab(c, h)
-  lab_color = LabColor(l, a, b, illuminant=ILLUMINANT)
-  rgb_color = convert_color(lab_color, sRGBColor)
-  clip_amount = get_clip_amount(rgb_color)
-  clamped_rgb_color = get_clamped_rgb_color(rgb_color)
-  hex_str = clamped_rgb_color.get_rgb_hex()
-  return hex_str, clip_amount
+    a, b = ch_to_ab(c, h)
+    lab_color = LabColor(l, a, b, illuminant=ILLUMINANT)
+    rgb_color = convert_color(lab_color, sRGBColor)
+    clip_amount = get_clip_amount(rgb_color)
+    clamped_rgb_color = get_clamped_rgb_color(rgb_color)
+    hex_str = clamped_rgb_color.get_rgb_hex()
+    return hex_str, clip_amount
 
 
 def get_lightest_unclipped_color(c, h):
-  a, b = ch_to_ab(c, h)
-  if c == 0:
-    return '#ffffff', 0
+    a, b = ch_to_ab(c, h)
+    if c == 0:
+        return '#ffffff', 0
 
-  # Run a binary search to find the lightest unclipped color.
-  max_rgb_color = None
-  cur_l = 50
-  delta = 25
-  while delta > 0:
-    lab_color = LabColor(cur_l, a, b, illuminant=ILLUMINANT)
-    rgb_color = convert_color(lab_color, sRGBColor)
-    if get_clip_amount(rgb_color) == 0:
-      max_rgb_color = rgb_color
-      cur_l += delta
-    else:
-      cur_l -= delta
+    # Run a binary search to find the lightest unclipped color.
+    max_rgb_color = None
+    cur_l = 50
+    delta = 25
+    while delta > 0:
+        lab_color = LabColor(cur_l, a, b, illuminant=ILLUMINANT)
+        rgb_color = convert_color(lab_color, sRGBColor)
+        if get_clip_amount(rgb_color) == 0:
+            max_rgb_color = rgb_color
+            cur_l += delta
+        else:
+            cur_l -= delta
 
-    delta /= 2
+        delta /= 2
 
-  hex_str = max_rgb_color.get_rgb_hex()
-  return hex_str, 0
+    hex_str = max_rgb_color.get_rgb_hex()
+    return hex_str, 0
 
 
 def get_shades(start_l, end_l, num_l, c, h):
-  colors = []
-  for l in np.linspace(start_l, end_l, num_l):
-    colors.append(lch_to_hex_str_and_clip_amount(l, c, h))
-  colors.append(get_lightest_unclipped_color(c, h))
-  return colors
+    colors = []
+    for l in np.linspace(start_l, end_l, num_l):
+        colors.append(lch_to_hex_str_and_clip_amount(l, c, h))
+    colors.append(get_lightest_unclipped_color(c, h))
+    return colors
 
 
 def get_hues(start_l, end_l, num_l, c, start_h, num_h):
-  colors = []
-  for h in np.linspace(start_h, start_h + math.tau, num_h, endpoint=False):
-    colors.append(get_shades(start_l, end_l, num_l, c, h))
-  return colors
+    colors = []
+    for h in np.linspace(start_h, start_h + math.tau, num_h, endpoint=False):
+        colors.append(get_shades(start_l, end_l, num_l, c, h))
+    return colors
 
 
 def get_chromas(start_l, end_l, num_l, start_c, end_c, num_c, start_h, num_h):
-  colors = []
-  for c in np.linspace(start_c, end_c, num_c):
-    cur_num_h = num_h if c > 0 else 1
-    colors.extend(get_hues(start_l, end_l, num_l, c, start_h, cur_num_h))
-  return colors
+    colors = []
+    for c in np.linspace(start_c, end_c, num_c):
+        cur_num_h = num_h if c > 0 else 1
+        colors.extend(get_hues(start_l, end_l, num_l, c, start_h, cur_num_h))
+    return colors
 
 
 def get_palette_colors(base_color, num_l, num_c, num_h, chroma_index_of_base_color):
-  rgb_color = sRGBColor.new_from_rgb_hex(BASE_COLOR)
-  lab_color = convert_color(rgb_color, LabColor)
-  l, a, b = lab_color.get_value_tuple()
-  c, h = ab_to_ch(a, b)
+    rgb_color = sRGBColor.new_from_rgb_hex(BASE_COLOR)
+    lab_color = convert_color(rgb_color, LabColor)
+    l, a, b = lab_color.get_value_tuple()
+    c, h = ab_to_ch(a, b)
 
-  print('Base color:', base_color)
-  print('L:', l)
-  print('C:', c)
-  print('H:', h)
+    print('Base color:', base_color)
+    print('L:', l)
+    print('C:', c)
+    print('H:', h)
 
-  start_l = 0
-  end_l = 100
-  start_c = 0
-  end_c = c * (num_c - 1) / chroma_index_of_base_color
-  start_h = h
+    start_l = 0
+    end_l = 100
+    start_c = 0
+    end_c = c * (num_c - 1) / chroma_index_of_base_color
+    start_h = h
 
-  return get_chromas(start_l, end_l, num_l,
-                     start_c, end_c, num_c,
-                     start_h, num_h)
+    return get_chromas(start_l, end_l, num_l, start_c, end_c, num_c, start_h, num_h)
 
 
 def print_closest_color(colors, target_color):
-  target_rgb = sRGBColor.new_from_rgb_hex(target_color)
-  min_diff = 255 * 3
-  closest_hex_str = None
-  stats = None
-  for hue_index, shades in enumerate(colors):
-    for shade_index, color in enumerate(shades):
-      hex_str, clip_amount = color
-      if not clip_amount:
-        color_rgb = sRGBColor.new_from_rgb_hex(hex_str)
-        r_diff = abs(target_rgb.rgb_r - color_rgb.rgb_r)
-        g_diff = abs(target_rgb.rgb_g - color_rgb.rgb_g)
-        b_diff = abs(target_rgb.rgb_b - color_rgb.rgb_b)
-        diff = r_diff + g_diff + b_diff
-        if diff < min_diff:
-          min_diff = diff
-          closest_hex_str = hex_str
-          stats = (diff, hue_index, shade_index)
-  print('Closest color to:', target_color, closest_hex_str,
-        ' - diff, hue, shade:', stats)
+    target_rgb = sRGBColor.new_from_rgb_hex(target_color)
+    min_diff = 255 * 3
+    closest_hex_str = None
+    stats = None
+    for hue_index, shades in enumerate(colors):
+        for shade_index, color in enumerate(shades):
+            hex_str, clip_amount = color
+            if not clip_amount:
+                color_rgb = sRGBColor.new_from_rgb_hex(hex_str)
+                r_diff = abs(target_rgb.rgb_r - color_rgb.rgb_r)
+                g_diff = abs(target_rgb.rgb_g - color_rgb.rgb_g)
+                b_diff = abs(target_rgb.rgb_b - color_rgb.rgb_b)
+                diff = r_diff + g_diff + b_diff
+                if diff < min_diff:
+                    min_diff = diff
+                    closest_hex_str = hex_str
+                    stats = (diff, hue_index, shade_index)
+    print('Closest color to:', target_color, closest_hex_str, ' - diff, hue, shade:', stats)
 
 
 def draw_palette():
-  colors = get_palette_colors(BASE_COLOR, NUM_L, NUM_C, NUM_H, CHROMA_INDEX_OF_BASE_COLOR)
-  draw_svg(colors)
-  print('Colors:', colors)
+    colors = get_palette_colors(BASE_COLOR, NUM_L, NUM_C, NUM_H, CHROMA_INDEX_OF_BASE_COLOR)
+    draw_svg(colors)
+    print('Colors:', colors)
 
-  # Print how close the closest color in the palette is to a target color,
-  # for when trying to generate palette that matches several colors.
-  target_colors = (
-    ('Blue', '00F0FF'),
-    ('Red', 'FF5952'),
-    ('Orange', 'FFBD7D'),
-  )
-  for name, hex_str in target_colors:
-    print(name)
-    print_closest_color(colors, hex_str)
+    # Print how close the closest color in the palette is to a target
+    # color, for when trying to generate palette that matches several
+    # colors.
+    target_colors = (
+        ('Blue', '00F0FF'),
+        ('Red', 'FF5952'),
+        ('Red2', 'F3505C'),
+        ('Orange', 'FFBD7D'),
+        ('Green', '51F66F'),
+    )
+    for name, hex_str in target_colors:
+        print(name)
+        print_closest_color(colors, hex_str)
 
 
 def draw_hues_for_color(base_color_hex_str, num_hues=10):
-  """Draws a palette of colors that only vary in hue.
+    """Draws a palette of colors that only vary in hue.
 
-  The base color's hue is used as one of the hues and the other hues will
-  evenly divide the 360 degree space. All colors will use the lightness and
-  chroma values of the base color.
+  The base color's hue is used as one of the hues and the other hues
+  will evenly divide the 360 degree space. All colors will use the
+  lightness and chroma values of the base color.
   """
-  rgb_color = sRGBColor.new_from_rgb_hex(base_color_hex_str)
-  lab_color = convert_color(rgb_color, LabColor)
-  l, a, b = lab_color.get_value_tuple()
-  c, h = ab_to_ch(a, b)
-  hues = []
-  for cur_h in np.linspace(h, h + math.tau, num_hues, endpoint=False):
-    hues.append(lch_to_hex_str_and_clip_amount(l, c, cur_h))
-  draw_svg([hues])
+    rgb_color = sRGBColor.new_from_rgb_hex(base_color_hex_str)
+    lab_color = convert_color(rgb_color, LabColor)
+    l, a, b = lab_color.get_value_tuple()
+    c, h = ab_to_ch(a, b)
+    hues = []
+    for cur_h in np.linspace(h, h + math.tau, num_hues, endpoint=False):
+        hues.append(lch_to_hex_str_and_clip_amount(l, c, cur_h))
+    draw_svg([hues])
 
 
 def main():
-  draw_palette()
+    draw_palette()
 
-  # draw_hues_for_color('FF5952')
+    # draw_hues_for_color('FF5952')
 
 
 if __name__ == '__main__':
-  main()
+    main()

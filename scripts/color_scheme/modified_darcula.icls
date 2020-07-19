@@ -1,9 +1,9 @@
 <scheme name="ZDarcula" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2020-06-17T12:01:25</property>
+    <property name="created">2020-07-19T15:40:53</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2020.1.2.0.0</property>
-    <property name="modified">2020-06-17T12:01:51</property>
+    <property name="modified">2020-07-19T15:41:13</property>
     <property name="originalScheme">ZDarcula</property>
   </metaInfo>
   <colors>
@@ -62,7 +62,7 @@
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="ff5952" />
+        <option name="FOREGROUND" value="cacaca" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -102,7 +102,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="b0b0b0" />
+        <option name="FOREGROUND" value="cacaca" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -139,7 +139,7 @@
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="ff5952" />
+        <option name="FOREGROUND" value="cacaca" />
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD">
@@ -161,7 +161,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ffb378" />
+        <option name="FOREGROUND" value="c595e4" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
@@ -209,7 +209,12 @@
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="ffef94" />
+      </value>
+    </option>
+    <option name="PY.CLASS_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="51f66f" />
       </value>
     </option>
     <option name="PY.DECORATOR">
@@ -230,17 +235,17 @@
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="ffef94" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="e0ef" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="c595e4" />
+        <option name="FOREGROUND" value="e0ef" />
       </value>
     </option>
     <option name="PY.STRING.B">
@@ -300,14 +305,14 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="b0b0b0" />
+        <option name="FOREGROUND" value="cacaca" />
         <option name="BACKGROUND" value="272727" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffef94" />
+        <option name="FOREGROUND" value="777777" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="ff0000" />
       </value>
