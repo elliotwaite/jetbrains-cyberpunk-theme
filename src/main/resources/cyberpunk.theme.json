@@ -108,9 +108,9 @@
       "inactiveBackground": "grey6"
     },
     "EditorTabs": {
-      "inactiveUnderlineColor": "grey6",
-      "underlineColor": "grey6",
-      "underlinedTabBackground": "grey6"
+      "inactiveUnderlineColor": "grey17",
+      "underlineColor": "grey26",
+      "underlinedTabBackground": "grey10"
     },
     "Label": {
       "disabledForeground": "grey17",
