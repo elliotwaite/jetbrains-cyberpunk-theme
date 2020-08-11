@@ -43,7 +43,7 @@
     "yellow": "#EEDB85",
     "green": "#51F66F",
     "lightBlue": "#00F0FF",
-    "darkBlue": "#6AA6FC",
+    "darkBlue": "#368AEC",
     "purple": "#D867C6",
     "pink": "#FFAEF4",
 
@@ -229,7 +229,7 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#6AA6FC",
+      "Actions.Blue": "#368AEC",
       "Actions.Green": "#51F66F",
       "Actions.Grey": "#cacaca",
       "Actions.GreyInline.Dark": "#cacaca",
@@ -241,7 +241,7 @@
       "Checkbox.Border.Disabled.Dark": "#4a4a4a",
       "Checkbox.Foreground.Selected.Dark": "#cacaca",
       "Objects.BlackText": "#3b3b3b",
-      "Objects.Blue": "#6AA6FC",
+      "Objects.Blue": "#368AEC",
       "Objects.Green": "#51F66F",
       "Objects.GreenAndroid": "#51F66F",
       "Objects.Grey": "#cacaca",

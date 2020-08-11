@@ -1,12 +1,12 @@
 <scheme name="Cyberpunk" version="142" parent_scheme="Darcula">  <colors>
     <option name="ADDED_LINES_COLOR" value="3b3b3b" />
     <option name="CARET_COLOR" value="b9b9b9" />
-    <option name="CARET_ROW_COLOR" value="false" />
+    <option name="CARET_ROW_COLOR" value="2e2e2e" />
     <option name="DOCUMENTATION_COLOR" value="424242" />
     <option name="GUTTER_BACKGROUND" value="343434" />
     <option name="INDENT_GUIDE" value="343434" />
     <option name="LINE_NUMBERS_COLOR" value="676767" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="676767" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="9f9f9f" />
     <option name="METHOD_SEPARATORS_COLOR" value="4a4a4a" />
     <option name="MODIFIED_LINES_COLOR" value="3b3b3b" />
     <option name="RIGHT_MARGIN_COLOR" value="4a4a4a" />
@@ -148,7 +148,7 @@
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="6aa6fc" />
+        <option name="FOREGROUND" value="368aec" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -185,7 +185,7 @@
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="6aa6fc" />
+        <option name="FOREGROUND" value="368aec" />
       </value>
     </option>
     <option name="HTML_TAG">
@@ -254,12 +254,12 @@
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
-        <option name="FOREGROUND" value="6aa6fc" />
+        <option name="FOREGROUND" value="368aec" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="6aa6fc" />
+        <option name="FOREGROUND" value="368aec" />
       </value>
     </option>
     <option name="PY.STRING.B">
