@@ -3,6 +3,15 @@ HOW TO UPDATE THE THEME
 Any changes to the theme other than changes the color scheme can be made
 directly in the 'src/main/resources/cyberpunk.theme.json'.
 
+To run the debug theme:
+  1. Copy the contents of:
+        scripts/debug/debug_theme.theme.json
+        scripts/debug/debug_theme.xml
+     Into:
+        src/main/resources/cyberpunk.theme.json
+        src/main/resources/cyberpunk.xml
+     Then run Gradle task: Tasks > Intellij > runIde
+
 To update the color scheme:
   1. Modify a version of Darcula.
   2. Apply the new settings (click the OK), then reopen the preferences window.

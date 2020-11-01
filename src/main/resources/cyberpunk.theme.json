@@ -112,6 +112,9 @@
       "underlineColor": "grey26",
       "underlinedTabBackground": "grey10"
     },
+    "FileColor": {
+      "Yellow": "grey6"
+    },
     "Label": {
       "disabledForeground": "grey17",
       "foreground": "grey26"

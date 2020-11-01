@@ -1,5 +1,4 @@
 plugins {
-    id 'java'
     id 'org.jetbrains.intellij' version '0.4.21'
 }
 
@@ -10,18 +9,15 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-}
-
 intellij {
-    version '2020.1.1'
+    version '2020.2'
     type 'PC'
 }
+
 patchPluginXml {
     changeNotes """
-      <ul>
-        <li>This is the first release (no changes yet).</li>
-      <ul>
-      """
+<ul>
+  <li>This is the first release (no changes yet).</li>
+<ul>
+"""
 }
