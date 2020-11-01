@@ -10,7 +10,7 @@ repositories {
 }
 
 intellij {
-    version '2020.2'
+    version 'LATEST-EAP-SNAPSHOT'
     type 'PC'
 }
 
