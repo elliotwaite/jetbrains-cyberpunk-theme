@@ -1,11 +1,38 @@
 <idea-plugin>
     <id>com.elliotwaite.cyberpunk_theme</id>
     <name>Cyberpunk Theme</name>
+    <version>1.0.0</version>
     <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
     <description><![CDATA[
-    A dark theme inspired by the look of Cyberpunk 2077.
+    A theme inspired by the look of Cyberpunk 2077.<br />
+    <br />
+    To install:
+    <ul>
+        <li>Go to <i>Preferences > Plugins</i>.</li>
+        <li>Search for "cyberpunk", and install the plugin.</li>
+        <li>Restart the IDE if prompted to.</li>
+        <li>Go to <i>Preferences > Appearance & Behavior > Appearance</i> and from the <i>Theme</i> dropdown menu select <i>Cyberpunk</i>.</li>
+    </ul>
+    <br/>
+    To apply the theme colors to the version control file colors, follow the instructions on the <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme#file-status-colors">GitHub page</a>.</br>
+    <br />
+    <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">On GitHub</a> | <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme/issues">Report an issue</a>
+    <br/><br/><br/>
+    <img src="https://raw.githubusercontent.com/elliotwaite/jetbrains-cyberpunk-theme/master/screenshots/screenshot-1.png" border="0" width="700" alt="Screenshot 1">
+    <br/>
+    <img src="https://raw.githubusercontent.com/elliotwaite/jetbrains-cyberpunk-theme/master/screenshots/screenshot-2.png" border="0" width="700" alt="Screenshot 2">
     ]]></description>
+
+    <change-notes><![CDATA[
+    <b>1.0.0</b>
+    <ul>
+        <li>Initial release, no changes yet.</li>
+    </ul>
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="191.0"/>
 
     <depends>com.intellij.modules.platform</depends>
 
