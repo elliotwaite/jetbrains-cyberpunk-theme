@@ -1,6 +1,8 @@
 import json
 import re
 
+INCLUDE_FILE_STATUS_COLORS = False
+
 OPTION_PATTERN = re.compile(r'\s*<option name="([^"]+)" value="([^"]+)" />')
 IGNORED_OPTION_NAMES = {
     'FONT_TYPE',
@@ -93,8 +95,11 @@ def remap_color_scheme_colors(source_path, output_path, color_map_path):
 
 
 def build_color_scheme(source_path, output_path, theme_path, file_statuses_path):
-    with open(file_statuses_path) as f:
-        file_status_lines = list(filter(lambda x: x.startswith('    <option'), f.readlines()))
+    if INCLUDE_FILE_STATUS_COLORS:
+        with open(file_statuses_path) as f:
+            file_status_lines = list(filter(lambda x: x.startswith('    <option'), f.readlines()))
+    else:
+        file_status_lines = []
 
     with open(source_path) as f:
         input_lines = f.readlines()
@@ -120,16 +125,16 @@ def build_color_scheme(source_path, output_path, theme_path, file_statuses_path)
 def convert_modified_darcula_to_darcula_template():
     convert_exported_color_scheme_to_color_scheme_template(
         source_path='modified_darcula.icls',
-        output_path='darkula_template.xml',
-        theme_path='modified_darkula_theme.json',
+        output_path='darcula_template.xml',
+        theme_path='modified_darcula_theme.json',
     )
 
 
-def remap_darkula_template_to_cyberpunk_template():
+def remap_darcula_template_to_cyberpunk_template():
     remap_color_scheme_colors(
-        source_path='darkula_template.xml',
+        source_path='darcula_template.xml',
         output_path='cyberpunk_template.xml',
-        color_map_path='darkula_to_cyberpunk_color_map.json',
+        color_map_path='darcula_to_cyberpunk_color_map.json',
     )
 
 
@@ -144,7 +149,7 @@ def build_cyberpunk_color_scheme():
 
 def main():
     convert_modified_darcula_to_darcula_template()
-    remap_darkula_template_to_cyberpunk_template()
+    remap_darcula_template_to_cyberpunk_template()
     build_cyberpunk_color_scheme()
 
 
