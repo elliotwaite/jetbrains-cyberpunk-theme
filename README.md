@@ -1,6 +1,6 @@
 # JetBrains Cyberpunk Theme
 
-A theme inspired by the UI color in [Cyberpunk 2077](https://www.cyberpunk.net).
+A theme inspired by the UI colors in [Cyberpunk 2077](https://www.cyberpunk.net).
 
 ## Install
 
