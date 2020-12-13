@@ -31,7 +31,7 @@ class MyClass:
 
 def main():
     my_number = 42
-    my_complex_number = 2 + 3j
+    my_complex_number = 6 + 9j
 
     my_bool = True
 
@@ -45,7 +45,7 @@ def main():
     # TODO: This is what a todo item looks like.
     my_char = my_string[0].lower()
 
-    my_regex_pattern = re.compile(r'^[\w.-]+@([\w\-]+|\.)+[A-Z0-9]{2,4}(?x)')
+    my_regex_pattern = re.compile(r'^[\w.-]+@([\w\-]+|\.)+[A-Z0-9]{3,7}(?x)')
 
     my_tuple = ("Test", 2 + 3, {'a': 'b'}, f'My str {my_number!s:{"^10"}}')
 
