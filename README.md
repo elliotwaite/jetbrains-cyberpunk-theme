@@ -5,7 +5,7 @@ A theme inspired by the UI colors in [Cyberpunk 2077](https://www.cyberpunk.net)
 ## Install
 
 * In your JetBrains IDE, go to `Preferences > Plugins`.
-* Search for "cyberpunk", and install the plugin.
+* Search for "cyberpunk" and install the plugin.
 * Restart the IDE if prompted to.
 * Go to `Preferences > Appearance & Behavior > Appearance` and from the `Theme` dropdown menu select `Cyberpunk`. 
 
