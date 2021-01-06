@@ -1,7 +1,7 @@
 import json
 import re
 
-INCLUDE_FILE_STATUS_COLORS = False
+INCLUDE_FILE_STATUS_COLORS = True
 
 OPTION_PATTERN = re.compile(r'\s*<option name="([^"]+)" value="([^"]+)" />')
 IGNORED_OPTION_NAMES = {

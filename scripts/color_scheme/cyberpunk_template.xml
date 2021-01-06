@@ -199,6 +199,17 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="PHP_CONSTANT">
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PHP_PARAMETER">
+      <value />
+    </option>
+    <option name="PHP_VAR">
+      <value />
+    </option>
     <option name="PROPERTIES.KEY">
       <value>
         <option name="FOREGROUND" value="red" />

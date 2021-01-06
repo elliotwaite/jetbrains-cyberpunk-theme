@@ -6,6 +6,7 @@
     <option name="FILESTATUS_COPIED" value="green" />
     <option name="FILESTATUS_DELETED" value="grey14" />
     <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="grey14" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="green" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="lightBlue" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="lightBlue" />
 
@@ -17,7 +18,9 @@
     <option name="FILESTATUS_MODIFIED" value="lightBlue" />
     <option name="FILESTATUS_modifiedOutside" value="lightBlue" />
 
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="grey16" />
     <option name="FILESTATUS_RENAMED" value="lightBlue" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="green" />
 
 
     <option name="FILESTATUS_UNKNOWN" value="red" />

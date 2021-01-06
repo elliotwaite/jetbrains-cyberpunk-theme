@@ -1,33 +1,36 @@
 <idea-plugin>
     <id>com.elliotwaite.cyberpunk_theme</id>
     <name>Cyberpunk Theme</name>
-    <version>1.0.1</version>
+    <version>1.0.4</version>
     <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
     <description><![CDATA[
     A theme inspired by the UI colors in Cyberpunk 2077.<br />
     <br />
-    To install:
+    To match the font in the screen shots:<br />
     <ul>
-        <li>Go to <i>Preferences > Plugins</i>.</li>
-        <li>Search for "cyberpunk" and install the plugin.</li>
-        <li>Restart the IDE if prompted to.</li>
-        <li>Go to <i>Preferences > Appearance & Behavior > Appearance</i> and from the <i>Theme</i> dropdown menu select <i>Cyberpunk</i>.</li>
+        <li>Preferences > Editor > Font > Font: <b>Source Code Pro</b> (downloadable <a href="https://fonts.google.com/specimen/Source+Code+Pro">here</a>)</li>
+        <li>Preferences > Appearance & Behavior > Appearance > Antialiasing > IDE: <b>Greyscale</b></li>
+        <li>Preferences > Appearance & Behavior > Appearance > Antialiasing > Editor: <b>Greyscale</b></li>
     </ul>
-    <br/>
-    To apply the theme colors to the version control file colors, follow the instructions on the <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme#file-status-colors">GitHub page</a>.</br>
     <br />
-    <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">On GitHub</a> | <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme/issues">Report an issue</a>
-    <br/><br/><br/>
-    <img src="https://raw.githubusercontent.com/elliotwaite/jetbrains-cyberpunk-theme/master/screenshots/screenshot-1.png" border="0" width="700" alt="Screenshot 1">
-    <br/>
+    To report a bug or make a suggestion, open an issue on <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">GitHub</a>.<br />
+    <br />
+    This theme is open source under the <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme/blob/master/LICENSE">MIT license</a>.<br/>
+    <br />
+    <img src="https://raw.githubusercontent.com/elliotwaite/jetbrains-cyberpunk-theme/master/screenshots/screenshot-1.png" border="0" width="700" alt="Screenshot 1"><br />
+    <br />
     <img src="https://raw.githubusercontent.com/elliotwaite/jetbrains-cyberpunk-theme/master/screenshots/screenshot-2.png" border="0" width="700" alt="Screenshot 2">
     ]]></description>
 
     <change-notes><![CDATA[
-    <b>1.0.1</b>
+    <b>1.0.4</b>
     <ul>
-        <li>Update plugin description.</li>
+        <li>Updated PHP colors.</li>
+    </ul>
+    <b>1.0.3</b>
+    <ul>
+        <li>Updated plugin icon.</li>
     </ul>
     ]]>
     </change-notes>

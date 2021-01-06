@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.elliotwaite'
-version '1.0.2'
+version '1.0.4'
 
 repositories {
     mavenCentral()
@@ -16,9 +16,13 @@ intellij {
 
 patchPluginXml {
     changeNotes """
-    <b>1.0.2</b>
+    <b>1.0.4</b>
     <ul>
-        <li>Update plugin description.</li>
+        <li>Updated PHP colors.</li>
+    </ul>
+    <b>1.0.3</b>
+    <ul>
+        <li>Updated plugin icon.</li>
     </ul>
     """
 }
