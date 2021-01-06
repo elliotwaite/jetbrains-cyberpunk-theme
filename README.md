@@ -2,7 +2,7 @@
 
 A theme inspired by the UI colors in [Cyberpunk 2077](https://www.cyberpunk.net).
 
-This theme can be found on the JetBrains Marketplace here: [Cyberpunk Theme](https://plugins.jetbrains.com/plugin/15563-cyberpunk-theme)
+This theme can be found in the JetBrains Marketplace here: [Cyberpunk Theme](https://plugins.jetbrains.com/plugin/15563-cyberpunk-theme)
 
 ## Install
 
