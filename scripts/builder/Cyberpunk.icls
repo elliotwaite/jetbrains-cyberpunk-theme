@@ -1,9 +1,36 @@
-<scheme name="ZDarcula" version="142" parent_scheme="Darcula">
+<scheme name="Cyberpunk" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2021-02-01T16:21:28</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2020.3.2.0.0</property>
+    <property name="modified">2021-02-01T16:21:34</property>
+    <property name="originalScheme">_@user_Cyberpunk</property>
+  </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="grey8" />
     <option name="CARET_COLOR" value="grey24" />
     <option name="CARET_ROW_COLOR" value="grey6" />
     <option name="DOCUMENTATION_COLOR" value="grey9" />
+    <option name="FILESTATUS_ADDED" value="green" />
+    <option name="FILESTATUS_COPIED" value="green" />
+    <option name="FILESTATUS_DELETED" value="grey14" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="grey14" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="grey16" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="red" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="red" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="red" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="green" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="grey16" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="green" />
+    <option name="FILESTATUS_MERGED" value="d59be8" />
+    <option name="FILESTATUS_MODIFIED" value="lightBlue" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="lightBlue" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="lightBlue" />
+    <option name="FILESTATUS_RENAMED" value="lightBlue" />
+    <option name="FILESTATUS_UNKNOWN" value="red" />
+    <option name="FILESTATUS_addedOutside" value="green" />
+    <option name="FILESTATUS_changelistConflict" value="red" />
+    <option name="FILESTATUS_modifiedOutside" value="lightBlue" />
     <option name="GUTTER_BACKGROUND" value="grey7" />
     <option name="INDENT_GUIDE" value="grey7" />
     <option name="LINE_NUMBERS_COLOR" value="grey14" />
@@ -23,7 +50,7 @@
   <attributes>
     <option name="BASH.EXTERNAL_COMMAND">
       <value>
-        <option name="FOREGROUND" value="orange" />
+        <option name="FOREGROUND" value="red" />
       </value>
     </option>
     <option name="BREADCRUMBS_CURRENT">
@@ -48,6 +75,25 @@
         <option name="FOREGROUND" value="grey24" />
       </value>
     </option>
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="purple" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="lightBlue" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="green" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
+    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="grey16" />
@@ -72,30 +118,30 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="green" />
+        <option name="FOREGROUND" value="yellow" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_COLOR" value="green" />
+        <option name="EFFECT_COLOR" value="yellow" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="orange" />
+        <option name="FOREGROUND" value="red" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="green" />
+        <option name="FOREGROUND" value="yellow" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -110,14 +156,14 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="green" />
+        <option name="FOREGROUND" value="error" />
         <option name="EFFECT_COLOR" value="error" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="orange" />
+        <option name="FOREGROUND" value="red" />
       </value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
@@ -127,12 +173,12 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
       <value>
-        <option name="FOREGROUND" value="blue" />
+        <option name="FOREGROUND" value="darkBlue" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -148,13 +194,13 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="green" />
+        <option name="FOREGROUND" value="yellow" />
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
@@ -164,22 +210,22 @@
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="green" />
+        <option name="FOREGROUND" value="yellow" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="blue" />
+        <option name="FOREGROUND" value="darkBlue" />
       </value>
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -212,29 +258,32 @@
     </option>
     <option name="PROPERTIES.KEY">
       <value>
-        <option name="FOREGROUND" value="orange" />
+        <option name="FOREGROUND" value="red" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="PY.ANNOTATION">
+      <value />
+    </option>
     <option name="PY.BUILTIN_NAME">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="PY.CLASS_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="new1" />
+        <option name="FOREGROUND" value="green" />
       </value>
     </option>
     <option name="PY.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="orange" />
+        <option name="FOREGROUND" value="red" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
@@ -244,60 +293,60 @@
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
-        <option name="FOREGROUND" value="blue" />
+        <option name="FOREGROUND" value="darkBlue" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="blue" />
+        <option name="FOREGROUND" value="darkBlue" />
       </value>
     </option>
     <option name="PY.STRING.B">
       <value>
-        <option name="FOREGROUND" value="green" />
+        <option name="FOREGROUND" value="yellow" />
       </value>
     </option>
     <option name="REGEXP.BRACES">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="REGEXP.BRACKETS">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="REGEXP.CHAR_CLASS">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REGEXP.ESC_CHARACTER">
       <value>
-        <option name="FOREGROUND" value="orange" />
+        <option name="FOREGROUND" value="red" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REGEXP.META">
       <value>
-        <option name="FOREGROUND" value="orange" />
+        <option name="FOREGROUND" value="red" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REGEXP.PARENTHS">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="REGEXP.QUOTE_CHARACTER">
       <value>
-        <option name="FOREGROUND" value="orange" />
+        <option name="FOREGROUND" value="red" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -328,17 +377,17 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
     <option name="YAML_ANCHOR">
       <value>
-        <option name="FOREGROUND" value="yellow" />
+        <option name="FOREGROUND" value="lightBlue" />
       </value>
     </option>
   </attributes>

@@ -1,8 +1,29 @@
-<scheme name="Cyberpunk" version="142" parent_scheme="Darcula">  <colors>
+<scheme name="Cyberpunk" version="142" parent_scheme="Darcula">
+  <colors>
     <option name="ADDED_LINES_COLOR" value="3b3b3b" />
     <option name="CARET_COLOR" value="b9b9b9" />
     <option name="CARET_ROW_COLOR" value="2e2e2e" />
     <option name="DOCUMENTATION_COLOR" value="424242" />
+    <option name="FILESTATUS_ADDED" value="51f66f" />
+    <option name="FILESTATUS_COPIED" value="51f66f" />
+    <option name="FILESTATUS_DELETED" value="676767" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="676767" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="777777" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f3505c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f3505c" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f3505c" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="51f66f" />
+    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="777777" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="51f66f" />
+    <option name="FILESTATUS_MERGED" value="d59be8" />
+    <option name="FILESTATUS_MODIFIED" value="f0ff" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="f0ff" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="f0ff" />
+    <option name="FILESTATUS_RENAMED" value="f0ff" />
+    <option name="FILESTATUS_UNKNOWN" value="f3505c" />
+    <option name="FILESTATUS_addedOutside" value="51f66f" />
+    <option name="FILESTATUS_changelistConflict" value="f3505c" />
+    <option name="FILESTATUS_modifiedOutside" value="f0ff" />
     <option name="GUTTER_BACKGROUND" value="343434" />
     <option name="INDENT_GUIDE" value="343434" />
     <option name="LINE_NUMBERS_COLOR" value="676767" />
@@ -18,26 +39,6 @@
     <option name="TEARLINE_COLOR" value="515151" />
     <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="3b3b3b" />
-    <option name="FILESTATUS_ADDED" value="51f66f" />
-    <option name="FILESTATUS_addedOutside" value="51f66f" />
-    <option name="FILESTATUS_changelistConflict" value="f3505c" />
-    <option name="FILESTATUS_COPIED" value="51f66f" />
-    <option name="FILESTATUS_DELETED" value="676767" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="676767" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="51f66f" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="f0ff" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="f0ff" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="777777" />
-    <option name="FILESTATUS_MERGED" value="d867c6" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f3505c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f3505c" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f3505c" />
-    <option name="FILESTATUS_MODIFIED" value="f0ff" />
-    <option name="FILESTATUS_modifiedOutside" value="f0ff" />
-    <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="777777" />
-    <option name="FILESTATUS_RENAMED" value="f0ff" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="51f66f" />
-    <option name="FILESTATUS_UNKNOWN" value="f3505c" />
   </colors>
   <attributes>
     <option name="BASH.EXTERNAL_COMMAND">
@@ -67,6 +68,25 @@
         <option name="FOREGROUND" value="b9b9b9" />
       </value>
     </option>
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="d867c6" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="f0ff" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="51f66f" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
+    <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="777777" />
@@ -129,7 +149,7 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="eedb85" />
+        <option name="FOREGROUND" value="ff0000" />
         <option name="EFFECT_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -234,6 +254,9 @@
         <option name="FOREGROUND" value="f3505c" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="PY.ANNOTATION">
+      <value />
     </option>
     <option name="PY.BUILTIN_NAME">
       <value>
