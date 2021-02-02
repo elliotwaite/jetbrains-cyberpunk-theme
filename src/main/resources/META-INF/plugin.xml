@@ -1,7 +1,6 @@
 <idea-plugin>
     <id>com.elliotwaite.cyberpunk_theme</id>
     <name>Cyberpunk Theme</name>
-    <version>1.0.4</version>
     <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
     <description><![CDATA[
@@ -22,20 +21,6 @@
     <br />
     <img src="https://raw.githubusercontent.com/elliotwaite/jetbrains-cyberpunk-theme/master/screenshots/screenshot-2.png" border="0" width="700" alt="Screenshot 2">
     ]]></description>
-
-    <change-notes><![CDATA[
-    <b>1.0.4</b>
-    <ul>
-        <li>Updated PHP colors.</li>
-    </ul>
-    <b>1.0.3</b>
-    <ul>
-        <li>Updated plugin icon.</li>
-    </ul>
-    ]]>
-    </change-notes>
-
-    <idea-version since-build="191.0"/>
 
     <depends>com.intellij.modules.platform</depends>
 

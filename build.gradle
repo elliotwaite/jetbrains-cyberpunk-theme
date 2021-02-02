@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.elliotwaite'
-version '1.0.4'
+version '1.0.5'
 
 repositories {
     mavenCentral()
@@ -11,18 +11,22 @@ repositories {
 
 intellij {
     version 'LATEST-EAP-SNAPSHOT'
-    type 'PC'
 }
 
 patchPluginXml {
+    sinceBuild '162'
     changeNotes """
+    <b>1.0.5</b>
+    <ul>
+        <li>Update colors for user-defined file types.</li>
+    </ul>
     <b>1.0.4</b>
     <ul>
-        <li>Updated PHP colors.</li>
+        <li>Update PHP colors.</li>
     </ul>
     <b>1.0.3</b>
     <ul>
-        <li>Updated plugin icon.</li>
+        <li>Update plugin icon.</li>
     </ul>
     """
 }
