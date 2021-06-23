@@ -1,0 +1,58 @@
+<idea-plugin>
+  <id>com.elliotwaite.cyberpunk_theme</id>
+  <name>Cyberpunk Theme</name>
+  <version>1.0.6</version>
+  <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
+
+  <description><![CDATA[
+      A theme inspired by the UI colors in Cyberpunk 2077.<br />
+      <br />
+      To match the font in the plugin's <a href="https://plugins.jetbrains.com/plugin/15563-cyberpunk-theme">screenshots</a>:<br />
+      <ul>
+          <li>Preferences > Editor > Font > Font: <b>Source Code Pro</b> (downloadable <a href="https://fonts.google.com/specimen/Source+Code+Pro">here</a>)</li>
+          <li>Preferences > Appearance & Behavior > Appearance > Antialiasing > IDE: <b>Greyscale</b></li>
+          <li>Preferences > Appearance & Behavior > Appearance > Antialiasing > Editor: <b>Greyscale</b></li>
+      </ul>
+      <br />
+      To report a bug or make a suggestion, open an issue on <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">GitHub</a>.<br />
+      <br />
+      This theme is open source under the <a href="https://github.com/elliotwaite/jetbrains-cyberpunk-theme/blob/master/LICENSE">MIT license</a>.<br/>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <b>1.0.6</b>
+      <ul>
+          <li>Expanded compatibility range to include all EAP versions.</li>
+      </ul>
+      <b>1.0.5</b>
+      <ul>
+          <li>Updated colors for user-defined file types.</li>
+      </ul>
+      <b>1.0.4</b>
+      <ul>
+          <li>Updated PHP colors.</li>
+      </ul>
+      <b>1.0.3</b>
+      <ul>
+          <li>Updated plugin icon.</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="3f316286-64a8-421b-91ae-21b0dfde096d" path="/cyberpunk_theme.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>

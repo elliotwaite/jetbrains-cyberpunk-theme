@@ -2,7 +2,7 @@
   "name": "Cyberpunk Theme",
   "dark": true,
   "author": "Elliot Waite",
-  "editorScheme": "/cyberpunk.xml",
+  "editorScheme": "/cyberpunk_theme.xml",
   "colors": {
     "black": "#000000",
     "grey1": "#0b0b0b",

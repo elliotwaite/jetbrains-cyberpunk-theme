@@ -1,9 +1,9 @@
 import json
 import re
 
-CYBERPUNK_THEME_JSON_PATH = '../../src/main/resources/cyberpunk.theme.json'
+CYBERPUNK_THEME_JSON_PATH = '../../resources/cyberpunk_theme.theme.json'
 CYBERPUNK_ICLS_PATH = 'Cyberpunk.icls'
-OUTPUT_PATH = '../../src/main/resources/cyberpunk.xml'
+OUTPUT_PATH = '../../resources/cyberpunk_theme.xml'
 
 
 def main():
