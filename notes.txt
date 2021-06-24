@@ -1,16 +1,16 @@
 HOW TO UPDATE THE THEME
 
 Any changes to the theme other than changes the color scheme can be made
-directly in the 'src/main/resources/cyberpunk.theme.json'.
+directly in the 'resources/cyberpunk.theme.json'.
 
 To run the debug theme:
   1. Copy the contents of:
         scripts/debug/debug_theme.theme.json
         scripts/debug/debug_theme.xml
      Into:
-        src/main/resources/cyberpunk.theme.json
-        src/main/resources/cyberpunk.xml
-     Then run Gradle task: Tasks > Intellij > runIde
+        resources/cyberpunk.theme.json
+        resources/cyberpunk.xml
+     Then run: Run > Run 'Plugin'
 
 To update the color scheme:
   1. Modify a version of Darcula.
@@ -18,5 +18,7 @@ To update the color scheme:
   2. Export the color scheme to '/scripts/color_scheme/modified_darcula.icls'.
   3. Run the builder: 'scripts/color_scheme/builder.py'
 
-To build the plugin, open the project in IntelliJ and run the Gradle task:
-  Tasks > intellij > buildPlugin
+To build the plugin, open the project in IntelliJ and run:
+  Build > Prepare Plugin Module 'jetbrains-cyberpunk-theme' For Deployment
+... this will generate a "jetbrains-cyberpunk-theme.jar" file in the project's
+root directory.
