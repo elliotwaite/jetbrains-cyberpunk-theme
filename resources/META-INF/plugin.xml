@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.elliotwaite.cyberpunk_theme</id>
   <name>Cyberpunk Theme</name>
-  <version>1.0.6</version>
+  <version>1.0.7</version>
   <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
   <description><![CDATA[
@@ -20,6 +20,10 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <b>1.0.7</b>
+      <ul>
+          <li>Fixes the "List > selectionInactiveBackground" color.</li>
+      </ul>
       <b>1.0.6</b>
       <ul>
           <li>Expanded compatibility range to include all EAP versions.</li>

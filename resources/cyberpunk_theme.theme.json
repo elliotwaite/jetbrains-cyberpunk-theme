@@ -126,7 +126,9 @@
       "background": "grey8",
       "foreground": "grey26",
       "selectionBackground": "grey10",
-      "selectionForeground": "grey30"
+      "selectionForeground": "grey30",
+      "selectionInactiveBackground": "grey10",
+      "selectionInactiveForeground": "grey30"
     },
     "Menu": {
       "background": "grey8",
