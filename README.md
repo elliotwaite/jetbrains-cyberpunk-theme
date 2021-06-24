@@ -10,9 +10,9 @@ In your JetBrains IDE, go to `Preferences > Plugins` and search for "Cyberpunk T
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/screenshot-1.png)
+![Screenshot 1](https://raw.githubusercontent.com/elliotwaite/jetbrains-cyberpunk-theme/master/screenshots/screenshot-1.png)
 
-![Screenshot 2](/screenshots/screenshot-2.png) 
+![Screenshot 2](https://raw.githubusercontent.com/elliotwaite/jetbrains-cyberpunk-theme/master/screenshots/screenshot-2.png) 
 
 ## License
 
