@@ -25,6 +25,9 @@
     <option name="FILESTATUS_changelistConflict" value="red" />
     <option name="FILESTATUS_modifiedOutside" value="lightBlue" />
     <option name="GUTTER_BACKGROUND" value="grey7" />
+    <option name="IMAGES_BACKGROUND" value="grey25" />
+    <option name="IMAGES_GRID_LINE_COLOR" value="grey25" />
+    <option name="IMAGES_WHITE_CELL_COLOR" value="grey25" />
     <option name="INDENT_GUIDE" value="grey7" />
     <option name="LINE_NUMBERS_COLOR" value="grey14" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="grey21" />
@@ -68,6 +71,38 @@
         <option name="FOREGROUND" value="grey24" />
       </value>
     </option>
+    <option name="CSS.CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="red" />
+      </value>
+    </option>
+    <option name="CSS.COLOR" baseAttributes="CSS.IDENT" />
+    <option name="CSS.IDENT">
+      <value />
+    </option>
+    <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="CSS.PROPERTY_NAME">
+      <value />
+    </option>
+    <option name="CSS.PROPERTY_VALUE">
+      <value />
+    </option>
+    <option name="CSS.PSEUDO">
+      <value>
+        <option name="FOREGROUND" value="red" />
+      </value>
+    </option>
+    <option name="CSS.TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="red" />
+      </value>
+    </option>
+    <option name="CSS.UNICODE.RANGE">
+      <value>
+        <option name="FOREGROUND" value="purple" />
+      </value>
+    </option>
+    <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
@@ -125,6 +160,11 @@
     <option name="DEFAULT_DOC_MARKUP">
       <value>
         <option name="FOREGROUND" value="yellow" />
+      </value>
+    </option>
+    <option name="DEFAULT_ENTITY">
+      <value>
+        <option name="FOREGROUND" value="darkBlue" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -201,19 +241,19 @@
         <option name="FOREGROUND" value="purple" />
       </value>
     </option>
-    <option name="HTML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="yellow" />
-      </value>
-    </option>
-    <option name="HTML_ENTITY_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="darkBlue" />
-      </value>
-    </option>
+    <option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="HAML_CLASS" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="HAML_COMMENT" baseAttributes="DEFAULT_DOC_COMMENT" />
+    <option name="HAML_ID" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="HAML_RUBY_CODE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
+    <option name="HAML_TAG" baseAttributes="TEXT" />
+    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
+    <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="HTML_TAG">
       <value>
         <option name="FOREGROUND" value="lightBlue" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
@@ -236,6 +276,20 @@
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+    <option name="JUPYTER_INLINE_VALUES">
+      <value>
+        <option name="FOREGROUND" value="grey14" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="JUPYTER_SELECTED_CELL">
+      <value>
+        <option name="FOREGROUND" value="grey14" />
+        <option name="BACKGROUND" value="grey8" />
+      </value>
+    </option>
+    <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="MAKO.SUBSTITUTION" baseAttributes="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="grey29" />
@@ -260,6 +314,7 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="PUPPET_HEREDOC_TAGS" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="PY.ANNOTATION">
       <value />
     </option>
@@ -354,6 +409,28 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="REST.FIXED">
+      <value>
+        <option name="BACKGROUND" value="grey7" />
+      </value>
+    </option>
+    <option name="REST.INLINE">
+      <value>
+        <option name="BACKGROUND" value="grey11" />
+      </value>
+    </option>
+    <option name="REST.INTERPRETED">
+      <value>
+        <option name="BACKGROUND" value="grey9" />
+      </value>
+    </option>
+    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
+    <option name="SASS_MIXIN">
+      <value />
+    </option>
+    <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="SQL_OUTER_QUERY_COLUMN" baseAttributes="SQL_COLUMN" />
+    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="purple" />
@@ -373,9 +450,28 @@
         <option name="ERROR_STRIPE_COLOR" value="error" />
       </value>
     </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="BACKGROUND" value="grey8" />
+      </value>
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="green" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
+    <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG">
       <value>
         <option name="FOREGROUND" value="lightBlue" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="XML_TAG_DATA">
+      <value>
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
