@@ -1,24 +1,33 @@
 HOW TO UPDATE THE THEME
 
-Any changes to the theme other than changes the color scheme can be made
-directly in the 'resources/cyberpunk.theme.json'.
-
-To run the debug theme:
-  1. Copy the contents of:
-        scripts/debug/debug_theme.theme.json
-        scripts/debug/debug_theme.xml
-     Into:
-        resources/cyberpunk.theme.json
-        resources/cyberpunk.xml
-     Then run: Run > Run 'Plugin'
+To update the UI colors:
+  Directly edit 'resources/cyberpunk.theme.json'.
 
 To update the color scheme:
-  1. Modify a version of Darcula.
-  2. Apply the new settings (click the OK), then reopen the preferences window.
-  2. Export the color scheme to '/scripts/color_scheme/modified_darcula.icls'.
-  3. Run the builder: 'scripts/color_scheme/builder.py'
+  1. In the IDE, under 'Preferences > Editor > Color Scheme > ...', modify any
+     of the color scheme settings.
+  2. Apply the new settings (click OK), then reopen the preferences window.
+  3. Export the color scheme and compare it to '/resources/cyberpunk_theme.xml'
+  4. Apply the changes to '/scripts/builder/Cyberpunk_Theme.icls', but replace
+     the hex colors with the equivalent palette color name.
+  5. Run the builder, '/scripts/builder/builder.py', to have the changes to
+     '/scripts/builder/Cyberpunk_Theme.icls' be applied to
+     '/resources/cyberpunk_theme.xml'.
 
-To build the plugin, open the project in IntelliJ and run:
-  Build > Prepare Plugin Module 'jetbrains-cyberpunk-theme' For Deployment
-... this will generate a "jetbrains-cyberpunk-theme.jar" file in the project's
-root directory.
+To run the debug theme:
+  1. Temporarily copy the contents of:
+        /scripts/debug/debug_theme.theme.json
+        /scripts/debug/debug_theme.xml
+     Into the corresponding files:
+        /resources/cyberpunk_theme.theme.json
+        /resources/cyberpunk.xml
+  2. Then run: Run > Run 'Plugin'
+
+To publish the plugin:
+  1. Bump the version number and update the change notes in
+     '/resources/META-INF/plugin.xml'.
+  2. Build the plugin by opening the project in IntelliJ and running:
+     Build > Prepare Plugin Module 'jetbrains-cyberpunk-theme' For Deployment
+     (This will generate a "jetbrains-cyberpunk-theme.jar" file in the project's
+     root directory.)
+  3. Upload the generated .jar file to the JetBrains plugins marketplace.

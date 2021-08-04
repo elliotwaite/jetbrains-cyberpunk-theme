@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.elliotwaite.cyberpunk_theme</id>
   <name>Cyberpunk Theme</name>
-  <version>1.0.7</version>
+  <version>1.0.8</version>
   <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
   <description><![CDATA[
@@ -22,23 +22,27 @@
   <change-notes><![CDATA[
       <b>1.0.7</b>
       <ul>
-          <li>Fixes the "List > selectionInactiveBackground" color.</li>
+          <li>Updated the JavaScript colors.</li>
+      </ul>
+      <b>1.0.7</b>
+      <ul>
+          <li>Fixed the "List > selectionInactiveBackground" color.</li>
       </ul>
       <b>1.0.6</b>
       <ul>
-          <li>Expanded compatibility range to include all EAP versions.</li>
+          <li>Expanded the compatibility range to include all current and future EAP versions.</li>
       </ul>
       <b>1.0.5</b>
       <ul>
-          <li>Updated colors for user-defined file types.</li>
+          <li>Updated the colors for user-defined file types.</li>
       </ul>
       <b>1.0.4</b>
       <ul>
-          <li>Updated PHP colors.</li>
+          <li>Updated the PHP colors.</li>
       </ul>
       <b>1.0.3</b>
       <ul>
-          <li>Updated plugin icon.</li>
+          <li>Updated the plugin icon.</li>
       </ul>
     ]]>
   </change-notes>
