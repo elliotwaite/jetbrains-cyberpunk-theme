@@ -20,29 +20,29 @@
     ]]></description>
 
   <change-notes><![CDATA[
-      <b>1.0.7</b>
+      <b>1.0.8</b>
       <ul>
-          <li>Updated the JavaScript colors.</li>
+          <li>Update the colors for web related file types.</li>
       </ul>
       <b>1.0.7</b>
       <ul>
-          <li>Fixed the "List > selectionInactiveBackground" color.</li>
+          <li>Fix the "List > selectionInactiveBackground" color.</li>
       </ul>
       <b>1.0.6</b>
       <ul>
-          <li>Expanded the compatibility range to include all current and future EAP versions.</li>
+          <li>Expand the compatibility range to include all current and future EAP versions.</li>
       </ul>
       <b>1.0.5</b>
       <ul>
-          <li>Updated the colors for user-defined file types.</li>
+          <li>Update the colors for user-defined file types.</li>
       </ul>
       <b>1.0.4</b>
       <ul>
-          <li>Updated the PHP colors.</li>
+          <li>Update the PHP colors.</li>
       </ul>
       <b>1.0.3</b>
       <ul>
-          <li>Updated the plugin icon.</li>
+          <li>Update the plugin icon.</li>
       </ul>
     ]]>
   </change-notes>
