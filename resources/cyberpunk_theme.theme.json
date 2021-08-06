@@ -38,16 +38,16 @@
     "grey31": "#f6f6f6",
     "white": "#ffffff",
 
-    "red": "#F3505C",
-    "orange": "#FFC07A",
-    "yellow": "#EEDB85",
-    "green": "#51F66F",
-    "lightBlue": "#00F0FF",
-    "darkBlue": "#368AEC",
-    "purple": "#D867C6",
-    "pink": "#FFAEF4",
+    "red": "#f3505c",
+    "orange": "#ffc07a",
+    "yellow": "#eedb85",
+    "green": "#51f66f",
+    "lightBlue": "#00f0ff",
+    "darkBlue": "#368aec",
+    "purple": "#d867c6",
+    "pink": "#ffaef4",
 
-    "error": "#FF0000"
+    "error": "#ff0000"
   },
   "ui": {
     "*": {
@@ -234,28 +234,28 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#368AEC",
-      "Actions.Green": "#51F66F",
+      "Actions.Blue": "#368aec",
+      "Actions.Green": "#51f66f",
       "Actions.Grey": "#cacaca",
       "Actions.GreyInline.Dark": "#cacaca",
-      "Actions.Red": "#F3505C",
-      "Actions.Yellow": "#EEDB85",
+      "Actions.Red": "#f3505c",
+      "Actions.Yellow": "#eedb85",
       "Checkbox.Background.Default.Dark": "#2e2e2e",
       "Checkbox.Background.Disabled.Dark": "#3b3b3b",
       "Checkbox.Border.Default.Dark": "#272727",
       "Checkbox.Border.Disabled.Dark": "#4a4a4a",
       "Checkbox.Foreground.Selected.Dark": "#cacaca",
       "Objects.BlackText": "#3b3b3b",
-      "Objects.Blue": "#368AEC",
-      "Objects.Green": "#51F66F",
-      "Objects.GreenAndroid": "#51F66F",
+      "Objects.Blue": "#368aec",
+      "Objects.Green": "#51f66f",
+      "Objects.GreenAndroid": "#51f66f",
       "Objects.Grey": "#cacaca",
-      "Objects.Pink": "#FFAEF4",
-      "Objects.Purple": "#D867C6",
-      "Objects.Red": "#F3505C",
-      "Objects.RedStatus": "#F3505C",
-      "Objects.Yellow": "#EEDB85",
-      "Objects.YellowDark": "#FFC07A"
+      "Objects.Pink": "#ffaef4",
+      "Objects.Purple": "#d867c6",
+      "Objects.Red": "#f3505c",
+      "Objects.RedStatus": "#f3505c",
+      "Objects.Yellow": "#eedb85",
+      "Objects.YellowDark": "#ffc07a"
     }
   }
 }
