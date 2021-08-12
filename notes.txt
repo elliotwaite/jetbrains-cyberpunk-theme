@@ -31,9 +31,3 @@ To publish the plugin:
      (This will generate a "jetbrains-cyberpunk-theme.jar" file in the project's
      root directory.)
   3. Upload the generated .jar file to the JetBrains plugins marketplace.
-
-Note about the darker "over" colors:
-    The pattern is [color][opacity of color]over[shade of grey behind color]
-    For example:
-        orange14over7 = orange (at opacity 14) over grey7
-        red28over5 = red (at opacity 28) over grey5

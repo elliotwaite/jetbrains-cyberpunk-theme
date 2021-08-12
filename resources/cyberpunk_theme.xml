@@ -1,6 +1,6 @@
 <scheme name="Cyberpunk Theme" version="142" parent_scheme="Darcula">
   <colors>
-    <option name="ADDED_LINES_COLOR" value="384f3c" />
+    <option name="ADDED_LINES_COLOR" value="39523d" />
     <option name="CARET_COLOR" value="b9b9b9" />
     <option name="CARET_ROW_COLOR" value="2e2e2e" />
     <option name="CONSOLE_BACKGROUND_KEY" value="272727" />
@@ -27,11 +27,11 @@
     <option name="FILESTATUS_addedOutside" value="51f66f" />
     <option name="FILESTATUS_changelistConflict" value="f3505c" />
     <option name="FILESTATUS_modifiedOutside" value="f0ff" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="63523e" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="534e3c" />
     <option name="GUTTER_BACKGROUND" value="343434" />
-    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="3c6a45" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="3b6443" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="676767" />
-    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="355881" />
+    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="355a84" />
     <option name="IMAGES_BACKGROUND" value="c1c1c1" />
     <option name="IMAGES_GRID_LINE_COLOR" value="c1c1c1" />
     <option name="IMAGES_WHITE_CELL_COLOR" value="c1c1c1" />
@@ -39,7 +39,7 @@
     <option name="LINE_NUMBERS_COLOR" value="676767" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="9f9f9f" />
     <option name="METHOD_SEPARATORS_COLOR" value="4a4a4a" />
-    <option name="MODIFIED_LINES_COLOR" value="34465b" />
+    <option name="MODIFIED_LINES_COLOR" value="344962" />
     <option name="RIGHT_MARGIN_COLOR" value="4a4a4a" />
     <option name="SELECTED_INDENT_GUIDE" value="4a4a4a" />
     <option name="SELECTED_TEARLINE_COLOR" value="777777" />
@@ -48,13 +48,13 @@
     <option name="ScrollBar.Mac.thumbColor" value="7f7f7f59" />
     <option name="TEARLINE_COLOR" value="515151" />
     <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="50483e" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="544a3f" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
-        <option name="BACKGROUND" value="603236" />
+        <option name="BACKGROUND" value="603336" />
         <option name="EFFECT_COLOR" value="f3505c" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -305,7 +305,7 @@
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="f3505c" />
-        <option name="BACKGROUND" value="603236" />
+        <option name="BACKGROUND" value="603336" />
         <option name="EFFECT_COLOR" value="f3505c" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -372,7 +372,7 @@
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cacaca" />
-        <option name="BACKGROUND" value="603236" />
+        <option name="BACKGROUND" value="603336" />
         <option name="EFFECT_COLOR" value="cacaca" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -385,14 +385,14 @@
     </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
-        <option name="BACKGROUND" value="63523e" />
+        <option name="BACKGROUND" value="534e3c" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="603236" />
+        <option name="BACKGROUND" value="603336" />
         <option name="EFFECT_COLOR" value="f3505c" />
-        <option name="ERROR_STRIPE_COLOR" value="993e45" />
+        <option name="ERROR_STRIPE_COLOR" value="9a3e45" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -405,7 +405,7 @@
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="ffc07a" />
-        <option name="ERROR_STRIPE_COLOR" value="a07d55" />
+        <option name="ERROR_STRIPE_COLOR" value="a17d56" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -432,7 +432,7 @@
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3b3b3b" />
-        <option name="ERROR_STRIPE_COLOR" value="33613b" />
+        <option name="ERROR_STRIPE_COLOR" value="585858" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -444,7 +444,7 @@
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="eedb85" />
-        <option name="ERROR_STRIPE_COLOR" value="968c5c" />
+        <option name="ERROR_STRIPE_COLOR" value="978c5c" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -648,7 +648,7 @@
     <option name="RUNTIME_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="ffc07a" />
-        <option name="ERROR_STRIPE_COLOR" value="a07d55" />
+        <option name="ERROR_STRIPE_COLOR" value="a17d56" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -665,7 +665,7 @@
     </option>
     <option name="SPY-JS.EXCEPTION">
       <value>
-        <option name="BACKGROUND" value="603236" />
+        <option name="BACKGROUND" value="603336" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -730,7 +730,7 @@
       <value>
         <option name="FOREGROUND" value="777777" />
         <option name="FONT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="993e45" />
+        <option name="ERROR_STRIPE_COLOR" value="9a3e45" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
@@ -753,28 +753,28 @@
     <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="63523e" />
-        <option name="ERROR_STRIPE_COLOR" value="a07d55" />
+        <option name="BACKGROUND" value="534e3c" />
+        <option name="ERROR_STRIPE_COLOR" value="978c5c" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="63523e" />
-        <option name="ERROR_STRIPE_COLOR" value="a07d55" />
+        <option name="BACKGROUND" value="214649" />
+        <option name="ERROR_STRIPE_COLOR" value="1c6064" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="532b2e" />
-        <option name="ERROR_STRIPE_COLOR" value="993e45" />
+        <option name="ERROR_STRIPE_COLOR" value="9a3e45" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f3505c" />
-        <option name="BACKGROUND" value="603236" />
+        <option name="BACKGROUND" value="603336" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />

@@ -1,6 +1,6 @@
 <scheme name="Cyberpunk Theme" version="142" parent_scheme="Darcula">
   <colors>
-    <option name="ADDED_LINES_COLOR" value="green14over7" />
+    <option name="ADDED_LINES_COLOR" value="green5grey7" />
     <option name="CARET_COLOR" value="grey24" />
     <option name="CARET_ROW_COLOR" value="grey6" />
     <option name="CONSOLE_BACKGROUND_KEY" value="grey5" />
@@ -27,11 +27,11 @@
     <option name="FILESTATUS_addedOutside" value="green" />
     <option name="FILESTATUS_changelistConflict" value="red" />
     <option name="FILESTATUS_modifiedOutside" value="lightBlue" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="orange28over5" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="yellow7grey5" />
     <option name="GUTTER_BACKGROUND" value="grey7" />
-    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="green28over7" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="green8grey7" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="grey14" />
-    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="darkBlue42over7" />
+    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="darkBlue14grey7" />
     <option name="IMAGES_BACKGROUND" value="grey25" />
     <option name="IMAGES_GRID_LINE_COLOR" value="grey25" />
     <option name="IMAGES_WHITE_CELL_COLOR" value="grey25" />
@@ -39,7 +39,7 @@
     <option name="LINE_NUMBERS_COLOR" value="grey14" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="grey21" />
     <option name="METHOD_SEPARATORS_COLOR" value="grey10" />
-    <option name="MODIFIED_LINES_COLOR" value="darkBlue21over7" />
+    <option name="MODIFIED_LINES_COLOR" value="darkBlue8grey7" />
     <option name="RIGHT_MARGIN_COLOR" value="grey10" />
     <option name="SELECTED_INDENT_GUIDE" value="grey10" />
     <option name="SELECTED_TEARLINE_COLOR" value="grey16" />
@@ -48,13 +48,13 @@
     <option name="ScrollBar.Mac.thumbColor" value="7f7f7f59" />
     <option name="TEARLINE_COLOR" value="grey11" />
     <option name="VISUAL_INDENT_GUIDE" value="grey8" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="orange14over7" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="orange5grey7" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
-        <option name="BACKGROUND" value="red28over5" />
+        <option name="BACKGROUND" value="red9grey5" />
         <option name="EFFECT_COLOR" value="red" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -305,7 +305,7 @@
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="red" />
-        <option name="BACKGROUND" value="red28over5" />
+        <option name="BACKGROUND" value="red9grey5" />
         <option name="EFFECT_COLOR" value="red" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -372,7 +372,7 @@
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="grey26" />
-        <option name="BACKGROUND" value="red28over5" />
+        <option name="BACKGROUND" value="red9grey5" />
         <option name="EFFECT_COLOR" value="grey26" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
@@ -385,14 +385,14 @@
     </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
-        <option name="BACKGROUND" value="orange28over5" />
+        <option name="BACKGROUND" value="yellow7grey5" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="red28over5" />
+        <option name="BACKGROUND" value="red9grey5" />
         <option name="EFFECT_COLOR" value="red" />
-        <option name="ERROR_STRIPE_COLOR" value="red56over5" />
+        <option name="ERROR_STRIPE_COLOR" value="red18grey5" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -405,7 +405,7 @@
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
         <option name="EFFECT_COLOR" value="orange" />
-        <option name="ERROR_STRIPE_COLOR" value="orange56over5" />
+        <option name="ERROR_STRIPE_COLOR" value="orange18grey5" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -432,7 +432,7 @@
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="grey8" />
-        <option name="ERROR_STRIPE_COLOR" value="green28over5" />
+        <option name="ERROR_STRIPE_COLOR" value="grey12" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -444,7 +444,7 @@
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="yellow" />
-        <option name="ERROR_STRIPE_COLOR" value="yellow56over5" />
+        <option name="ERROR_STRIPE_COLOR" value="yellow18grey5" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -648,7 +648,7 @@
     <option name="RUNTIME_ERROR">
       <value>
         <option name="EFFECT_COLOR" value="orange" />
-        <option name="ERROR_STRIPE_COLOR" value="orange56over5" />
+        <option name="ERROR_STRIPE_COLOR" value="orange18grey5" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -660,18 +660,18 @@
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="155221" />
-        <option name="ERROR_STRIPE_COLOR" value="green56over5" />
+        <option name="ERROR_STRIPE_COLOR" value="green18grey5" />
       </value>
     </option>
     <option name="SPY-JS.EXCEPTION">
       <value>
-        <option name="BACKGROUND" value="red28over5" />
+        <option name="BACKGROUND" value="red9grey5" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.PATH_LEVEL_ONE">
       <value>
-        <option name="BACKGROUND" value="green28over5" />
+        <option name="BACKGROUND" value="green9grey5" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -723,14 +723,14 @@
       <value>
         <option name="BACKGROUND" value="32593d" />
         <option name="EFFECT_COLOR" value="3c704b" />
-        <option name="ERROR_STRIPE_COLOR" value="green56over5" />
+        <option name="ERROR_STRIPE_COLOR" value="green18grey5" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="grey16" />
         <option name="FONT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="red56over5" />
+        <option name="ERROR_STRIPE_COLOR" value="red18grey5" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
@@ -745,7 +745,7 @@
     </option>
     <option name="TYPO">
       <value>
-        <option name="EFFECT_COLOR" value="green56over5" />
+        <option name="EFFECT_COLOR" value="green18grey5" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -753,28 +753,28 @@
     <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="orange28over5" />
-        <option name="ERROR_STRIPE_COLOR" value="orange56over5" />
+        <option name="BACKGROUND" value="yellow7grey5" />
+        <option name="ERROR_STRIPE_COLOR" value="yellow18grey5" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="orange28over5" />
-        <option name="ERROR_STRIPE_COLOR" value="orange56over5" />
+        <option name="BACKGROUND" value="blue5grey5" />
+        <option name="ERROR_STRIPE_COLOR" value="blue9grey5" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="532b2e" />
-        <option name="ERROR_STRIPE_COLOR" value="red56over5" />
+        <option name="ERROR_STRIPE_COLOR" value="red18grey5" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="red" />
-        <option name="BACKGROUND" value="red28over5" />
+        <option name="BACKGROUND" value="red9grey5" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />

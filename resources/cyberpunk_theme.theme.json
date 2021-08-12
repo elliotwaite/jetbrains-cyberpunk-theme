@@ -48,25 +48,36 @@
     "darkPink": "#d867c6",
     "pink": "#ffaef4",
 
-    "orange14over7": "#50483E",
-    "green14over7": "#384F3C",
-    "darkBlue21over7": "#34465B",
+    "orange5grey7": "#544a3f",
+    "green5grey7": "#39523d",
+    "darkBlue8grey7": "#344962",
 
-    "green28over7": "#3C6A45",
-    "darkBlue42over7": "#355881",
+    "green8grey7": "#3b6443",
+    "darkBlue14grey7": "#355a84",
 
-    "red28over5": "#603236",
-    "orange28over5": "#63523E",
-    "yellow28over5": "#5F5941",
-    "green28over5": "#33613B",
-    "darkBlue56over5": "#2F5E95",
+    "blue5grey5": "#214649",
 
-    "darkBlue70over5": "#316CB1",
+    "yellow7grey5": "#534E3C",
 
-    "red56over5": "#993E45",
-    "orange56over5": "#A07D55",
-    "yellow56over5": "#968C5C",
-    "green56over5": "#3F9B4F",
+    "red9grey5": "#603336",
+    "orange9grey5": "#64523E",
+    "yellow9grey5": "#5F5A41",
+    "green9grey5": "#33613B",
+    "blue9grey5": "#1C6064",
+    "darkBlue18grey5": "#2F5F96",
+
+    "darkBlue21grey5": "#316BAE",
+
+    "red18grey5": "#9A3E45",
+    "orange18grey5": "#A17D56",
+    "yellow18grey5": "#978C5C",
+    "green18grey5": "#3F9B4F",
+    "blue18grey5": "#1198A1",
+
+    "darkBlue14": "#183C67",
+    "darkBlue21": "#235B9B",
+    "darkBlue22": "#255FA2",
+    "darkBlue28": "#2F79CE",
 
     "selectBlue": "#214283",
     "error": "#ff0000"
@@ -77,8 +88,8 @@
       "disabledBackground": "grey8"
     },
     "AssignedMnemonic": {
-      "background": "darkBlue56over5",
-      "borderColor": "darkBlue56over5"
+      "background": "darkBlue18grey5",
+      "borderColor": "darkBlue18grey5"
     },
     "Borders": {
       "color": "grey5",
@@ -89,18 +100,19 @@
       "disabledBorderColor": "grey10",
       "disabledText": "grey17",
       "endBackground": "grey12",
-      "endBorderColor": "grey14",
+      "endBorderColor": "grey11",
       "foreground": "grey28",
-      "startBackground": "grey12",
-      "startBorderColor": "grey14",
+      "focusedBorderColor": "grey11",
+      "startBackground": "grey14",
+      "startBorderColor": "grey17",
       "default": {
-        "endBackground": "darkBlue56over5",
-        "endBorderColor": "darkBlue70over5",
+        "endBackground": "darkBlue22",
+        "endBorderColor": "darkBlue21",
         "focusColor": "darkBlue",
-        "focusedBorderColor": "darkBlue",
-        "foreground": "grey28",
-        "startBackground": "darkBlue56over5",
-        "startBorderColor": "darkBlue70over5"
+        "focusedBorderColor": "darkBlue21",
+        "foreground": "grey30",
+        "startBackground": "darkBlue28",
+        "startBorderColor": "darkBlue"
       }
     },
     "CheckBox": {
@@ -129,8 +141,8 @@
       "disabledBorderColor": "grey10"
     },
     "CurrentMnemonic": {
-      "background": "green28over5",
-      "borderColor": "green28over5"
+      "background": "green9grey5",
+      "borderColor": "green9grey5"
     },
     "DefaultTabs": {
       "background": "grey8",
@@ -190,6 +202,9 @@
       "background": "grey6",
       "hoverBackground": "grey8",
       "lightSelectionBackground": "grey8",
+      "Button": {
+        "installFillForeground": "grey30"
+      },
       "SearchField": {
         "borderColor": "grey5"
       },
