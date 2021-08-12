@@ -44,15 +44,41 @@
     "green": "#51f66f",
     "lightBlue": "#00f0ff",
     "darkBlue": "#368aec",
-    "purple": "#d867c6",
+    "purple": "#A186E1",
+    "darkPink": "#d867c6",
     "pink": "#ffaef4",
 
+    "orange14over7": "#50483E",
+    "green14over7": "#384F3C",
+    "darkBlue21over7": "#34465B",
+
+    "green28over7": "#3C6A45",
+    "darkBlue42over7": "#355881",
+
+    "red28over5": "#603236",
+    "orange28over5": "#63523E",
+    "yellow28over5": "#5F5941",
+    "green28over5": "#33613B",
+    "darkBlue56over5": "#2F5E95",
+
+    "darkBlue70over5": "#316CB1",
+
+    "red56over5": "#993E45",
+    "orange56over5": "#A07D55",
+    "yellow56over5": "#968C5C",
+    "green56over5": "#3F9B4F",
+
+    "selectBlue": "#214283",
     "error": "#ff0000"
   },
   "ui": {
     "*": {
       "background": "grey8",
       "disabledBackground": "grey8"
+    },
+    "AssignedMnemonic": {
+      "background": "darkBlue56over5",
+      "borderColor": "darkBlue56over5"
     },
     "Borders": {
       "color": "grey5",
@@ -62,11 +88,19 @@
       "background": "grey8",
       "disabledBorderColor": "grey10",
       "disabledText": "grey17",
-      "endBackground": "grey10",
-      "foreground": "grey26",
-      "startBackground": "grey10",
+      "endBackground": "grey12",
+      "endBorderColor": "grey14",
+      "foreground": "grey28",
+      "startBackground": "grey12",
+      "startBorderColor": "grey14",
       "default": {
-        "foreground": "grey26"
+        "endBackground": "darkBlue56over5",
+        "endBorderColor": "darkBlue70over5",
+        "focusColor": "darkBlue",
+        "focusedBorderColor": "darkBlue",
+        "foreground": "grey28",
+        "startBackground": "darkBlue56over5",
+        "startBorderColor": "darkBlue70over5"
       }
     },
     "CheckBox": {
@@ -86,12 +120,17 @@
     "CompletionPopup": {
       "foreground": "grey26",
       "matchForeground": "grey30",
-      "selectionBackground": "grey10",
-      "selectionInactiveBackground": "grey10"
+      "selectionBackground": "selectBlue",
+      "selectionInactiveBackground": "selectBlue"
     },
     "Component": {
       "borderColor": "grey5",
+      "focusColor": "darkBlue",
       "disabledBorderColor": "grey10"
+    },
+    "CurrentMnemonic": {
+      "background": "green28over5",
+      "borderColor": "green28over5"
     },
     "DefaultTabs": {
       "background": "grey8",
@@ -149,12 +188,13 @@
     },
     "Plugins": {
       "background": "grey6",
-      "lightSelectionBackground": "grey9",
+      "hoverBackground": "grey8",
+      "lightSelectionBackground": "grey8",
       "SearchField": {
         "borderColor": "grey5"
       },
       "SectionHeader": {
-        "background": "grey8",
+        "background": "grey10",
         "foreground": "grey26"
       }
     },
@@ -171,7 +211,7 @@
       "trackColor": "grey4",
       "progressColor": "lightBlue",
       "indeterminateStartColor": "lightBlue",
-      "indeterminateEndColor": "purple"
+      "indeterminateEndColor": "darkPink"
     },
     "RadioButton": {
       "background": "grey8"
@@ -215,10 +255,10 @@
       "hoverColor": "grey6"
     },
     "ToolTip": {
+      "background": "grey10",
       "Actions": {
         "background": "grey10"
-      },
-      "background": "grey10"
+      }
     },
     "Tree": {
       "background": "grey6",
@@ -229,7 +269,13 @@
     },
     "WelcomeScreen": {
       "background": "grey6",
-      "separatorColor": "grey6"
+      "separatorColor": "grey6",
+      "Details": {
+        "background": "grey6"
+      },
+      "SidePanel": {
+        "background": "grey8"
+      }
     }
   },
   "icons": {
@@ -244,6 +290,7 @@
       "Checkbox.Background.Disabled.Dark": "#3b3b3b",
       "Checkbox.Border.Default.Dark": "#272727",
       "Checkbox.Border.Disabled.Dark": "#4a4a4a",
+      "Checkbox.Focus.Wide.Dark": "#368aec",
       "Checkbox.Foreground.Selected.Dark": "#cacaca",
       "Objects.BlackText": "#3b3b3b",
       "Objects.Blue": "#368aec",

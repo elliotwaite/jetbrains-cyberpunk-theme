@@ -4,15 +4,15 @@ To update the UI colors:
   Directly edit 'resources/cyberpunk.theme.json'.
 
 To update the color scheme:
-  1. In the IDE, under 'Preferences > Editor > Color Scheme > ...', modify any
-     of the color scheme settings.
+  1. In the IDE, under 'Preferences > Editor > Color Scheme > ...', modify the
+     'Cyberpunk Theme' color scheme.
   2. Apply the new settings (click OK), then reopen the preferences window.
-  3. Export the color scheme and compare it to '/resources/cyberpunk_theme.xml'
-  4. Apply the changes to '/scripts/builder/Cyberpunk_Theme.icls', but replace
-     the hex colors with the equivalent palette color name.
-  5. Run the builder, '/scripts/builder/builder.py', to have the changes to
-     '/scripts/builder/Cyberpunk_Theme.icls' be applied to
+  3. Export the modified 'Cyberpunk Theme' color scheme and compare it to
      '/resources/cyberpunk_theme.xml'.
+  4. Incorporate the changes into '/scripts/builder/Cyberpunk_Theme.icls', but
+     replace any hex colors with its equivalent palette color name.
+  5. Run the builder, '/scripts/builder/builder.py', to have the changes also
+     be applied to '/resources/cyberpunk_theme.xml'.
 
 To run the debug theme:
   1. Temporarily copy the contents of:
@@ -31,3 +31,9 @@ To publish the plugin:
      (This will generate a "jetbrains-cyberpunk-theme.jar" file in the project's
      root directory.)
   3. Upload the generated .jar file to the JetBrains plugins marketplace.
+
+Note about the darker "over" colors:
+    The pattern is [color][opacity of color]over[shade of grey behind color]
+    For example:
+        orange14over7 = orange (at opacity 14) over grey7
+        red28over5 = red (at opacity 28) over grey5

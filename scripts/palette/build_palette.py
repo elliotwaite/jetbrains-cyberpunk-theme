@@ -56,7 +56,7 @@ hue of the base color (cyberpunk blue):
   green:     #00B85E, L: 21,  C: 3, H: 27
   lightBlue: #00E0EF, L: 26,  C: 2, H: 0 (a darker version of cyberpunk blue)
   darkBlue:  #1DBBFF, L: max, C: 2, H: 4
-  purple:    #D59BE8, L: 23,  C: 2, H: 10
+  darkPink:  #D59BE8, L: 23,  C: 2, H: 10
   pink:      #FFAEF4, L: max, C: 2, H: 11
 
 """

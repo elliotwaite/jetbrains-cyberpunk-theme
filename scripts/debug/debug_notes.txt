@@ -1,2 +1,10 @@
-In highContrastSchemeWhitened.xml, 'colors > TEXT > BACKGROUND' must be kept dark, or else
-'colors > DOCUMENTATION_COLOR' will be ignored.
+The theme metadata files should regularly be updated to their latest versions:
+https://github.com/JetBrains/intellij-community/blob/master/platform/platform-resources/src/themes/metadata/IntelliJPlatform.themeMetadata.json
+https://github.com/JetBrains/intellij-community/blob/master/platform/platform-resources/src/themes/metadata/JDK.themeMetadata.json
+
+To remove the gradients from certain elements so that you can inspect the
+flat color values, remove the "endBackground" color values for those specific
+elements.
+
+In highContrastSchemeWhitened.xml, 'colors > TEXT > BACKGROUND' must be kept
+dark, or else 'colors > DOCUMENTATION_COLOR' will be ignored.
