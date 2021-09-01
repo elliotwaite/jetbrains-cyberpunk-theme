@@ -203,7 +203,8 @@
       "hoverBackground": "grey8",
       "lightSelectionBackground": "grey8",
       "Button": {
-        "installFillForeground": "grey30"
+        "installFillForeground": "grey30",
+        "updateForeground":"grey30"
       },
       "SearchField": {
         "borderColor": "grey5"

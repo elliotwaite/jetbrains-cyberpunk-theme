@@ -390,7 +390,6 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="red9grey5" />
         <option name="EFFECT_COLOR" value="red" />
         <option name="ERROR_STRIPE_COLOR" value="red18grey5" />
         <option name="EFFECT_TYPE" value="2" />

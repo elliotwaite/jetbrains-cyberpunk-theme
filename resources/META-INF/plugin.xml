@@ -22,9 +22,10 @@
   <change-notes><![CDATA[
       <b>1.0.9</b>
       <ul>
+          <li>Updated button colors.</li>
           <li>Updated welcome screen background colors.</li>
           <li>Updated mnemonic bookmark button colors.</li>
-          <li>Several small syntax color updates.</li>
+          <li>Several syntax color updates.</li>
       </ul>
       <b>1.0.8</b>
       <ul>
