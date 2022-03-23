@@ -2,9 +2,12 @@ import json
 import os
 
 CUR_DIR = os.path.dirname(os.path.realpath(__file__))
-THEME_JSON_PATH = os.path.join(CUR_DIR, '..', '..', 'resources/cyberpunk_theme.theme.json')
+THEME_JSON_PATH = os.path.join(
+    CUR_DIR, '..', '..', 'resources/cyberpunk_theme.theme.json'
+)
 ICLS_PATH = os.path.join(CUR_DIR, 'Cyberpunk_Theme.icls')
 OUTPUT_PATH = os.path.join(CUR_DIR, '..', '..', 'resources/cyberpunk_theme.xml')
+
 
 def main():
     # Get the theme colors (a dict that maps color names to hex strings).

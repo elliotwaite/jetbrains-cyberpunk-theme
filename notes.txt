@@ -31,3 +31,8 @@ To publish the plugin:
      (This will generate a "jetbrains-cyberpunk-theme.jar" file in the project's
      root directory.)
   3. Upload the generated .jar file to the JetBrains plugins marketplace.
+
+The meaning of the names of the darker colors:
+    [color][opacity of color out of 32][shade of grey behind color]
+    For example:
+        red9grey5 = red (at opacity 9/32) over grey5

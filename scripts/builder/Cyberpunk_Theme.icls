@@ -238,6 +238,11 @@
         <option name="FOREGROUND" value="grey16" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="green" />
+      </value>
+    </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="darkBlue" />
@@ -300,6 +305,11 @@
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="darkPink" />
+      </value>
+    </option>
+    <option name="DEFAULT_INTERFACE_NAME">
+      <value>
+        <option name="FOREGROUND" value="green" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -451,7 +461,11 @@
       <value />
     </option>
     <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="orange" />
+      </value>
+    </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
@@ -733,9 +747,7 @@
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
-      <value>
-        <option name="BACKGROUND" value="grey8" />
-      </value>
+      <value />
     </option>
     <option name="TS.TYPE_PARAMETER">
       <value>
