@@ -64,7 +64,6 @@
     "yellow9grey5": "#5F5A41",
     "green9grey5": "#33613B",
     "blue9grey5": "#1C6064",
-    "darkBlue18grey5": "#2F5F96",
 
     "darkBlue21grey5": "#316BAE",
 
@@ -72,7 +71,11 @@
     "orange18grey5": "#A17D56",
     "yellow18grey5": "#978C5C",
     "green18grey5": "#3F9B4F",
-    "blue18grey5": "#1198A1",
+    "lightBlue18grey5": "#1198A1",
+    "darkBlue18grey5": "#2F5F96",
+    "purple18grey5": "#6C5C90",
+    "darkPink18grey5": "#8B4B80",
+    "pink18grey5": "#A1739A",
 
     "darkBlue14": "#183C67",
     "darkBlue21": "#235B9B",

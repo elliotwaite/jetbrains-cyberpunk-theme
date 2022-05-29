@@ -743,7 +743,7 @@
       <value>
         <option name="FOREGROUND" value="777777" />
         <option name="FONT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="9a3e45" />
+        <option name="ERROR_STRIPE_COLOR" value="3b3b3b" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">

@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.elliotwaite.cyberpunk_theme</id>
   <name>Cyberpunk Theme</name>
-  <version>1.0.10</version>
+  <version>1.0.11</version>
   <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
   <description><![CDATA[
@@ -20,6 +20,15 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <b>1.0.11</b>
+      <ul>
+        <li>
+          Changed the TODO stripe mark color from red to dark grey. This stripe
+          mark is shown in the right scrollbar to identify TODO comments. The
+          dark grey color better reflects that it's a TODO comment and not
+          an error.
+        </li>
+      </ul>
       <b>1.0.10</b>
       <ul>
         <li>Changed class name color from white to green.</li>
