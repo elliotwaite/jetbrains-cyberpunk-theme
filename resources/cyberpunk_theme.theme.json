@@ -82,7 +82,6 @@
     "darkBlue22": "#255FA2",
     "darkBlue28": "#2F79CE",
 
-    "selectBlue": "#214283",
     "error": "#ff0000"
   },
   "ui": {
@@ -135,8 +134,8 @@
     "CompletionPopup": {
       "foreground": "grey26",
       "matchForeground": "grey30",
-      "selectionBackground": "selectBlue",
-      "selectionInactiveBackground": "selectBlue"
+      "selectionBackground": "grey9",
+      "selectionInactiveBackground": "grey9"
     },
     "Component": {
       "borderColor": "grey5",

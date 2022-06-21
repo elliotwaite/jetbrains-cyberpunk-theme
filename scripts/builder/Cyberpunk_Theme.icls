@@ -7,6 +7,7 @@
     <option name="DELETED_LINES_COLOR" value="grey14" />
     <option name="DOCUMENTATION_COLOR" value="grey9" />
     <option name="DOC_COMMENT_GUIDE" value="grey8" />
+    <option name="ERROR_HINT" value="grey7" />
     <option name="FILESTATUS_ADDED" value="green" />
     <option name="FILESTATUS_COPIED" value="green" />
     <option name="FILESTATUS_DELETED" value="grey14" />
@@ -36,10 +37,13 @@
     <option name="IMAGES_GRID_LINE_COLOR" value="grey25" />
     <option name="IMAGES_WHITE_CELL_COLOR" value="grey25" />
     <option name="INDENT_GUIDE" value="grey7" />
+    <option name="INFORMATION_HINT" value="grey7" />
     <option name="LINE_NUMBERS_COLOR" value="grey14" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="grey21" />
+    <option name="LOOKUP_COLOR" value="grey7" />
     <option name="METHOD_SEPARATORS_COLOR" value="grey10" />
     <option name="MODIFIED_LINES_COLOR" value="darkBlue8grey7" />
+    <option name="PROMOTION_PANE" value="grey7" />
     <option name="RIGHT_MARGIN_COLOR" value="grey10" />
     <option name="SELECTED_INDENT_GUIDE" value="grey10" />
     <option name="SELECTED_TEARLINE_COLOR" value="grey16" />
@@ -84,6 +88,11 @@
     <option name="BREADCRUMBS_INACTIVE">
       <value>
         <option name="FOREGROUND" value="grey24" />
+      </value>
+    </option>
+    <option name="CODE_LENS_BORDER_COLOR">
+      <value>
+        <option name="EFFECT_COLOR" value="grey21" />
       </value>
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">

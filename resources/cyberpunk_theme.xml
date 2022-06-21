@@ -7,6 +7,7 @@
     <option name="DELETED_LINES_COLOR" value="676767" />
     <option name="DOCUMENTATION_COLOR" value="424242" />
     <option name="DOC_COMMENT_GUIDE" value="3b3b3b" />
+    <option name="ERROR_HINT" value="343434" />
     <option name="FILESTATUS_ADDED" value="51f66f" />
     <option name="FILESTATUS_COPIED" value="51f66f" />
     <option name="FILESTATUS_DELETED" value="676767" />
@@ -36,10 +37,13 @@
     <option name="IMAGES_GRID_LINE_COLOR" value="c1c1c1" />
     <option name="IMAGES_WHITE_CELL_COLOR" value="c1c1c1" />
     <option name="INDENT_GUIDE" value="343434" />
+    <option name="INFORMATION_HINT" value="343434" />
     <option name="LINE_NUMBERS_COLOR" value="676767" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="9f9f9f" />
+    <option name="LOOKUP_COLOR" value="343434" />
     <option name="METHOD_SEPARATORS_COLOR" value="4a4a4a" />
     <option name="MODIFIED_LINES_COLOR" value="344962" />
+    <option name="PROMOTION_PANE" value="343434" />
     <option name="RIGHT_MARGIN_COLOR" value="4a4a4a" />
     <option name="SELECTED_INDENT_GUIDE" value="4a4a4a" />
     <option name="SELECTED_TEARLINE_COLOR" value="777777" />
@@ -84,6 +88,11 @@
     <option name="BREADCRUMBS_INACTIVE">
       <value>
         <option name="FOREGROUND" value="b9b9b9" />
+      </value>
+    </option>
+    <option name="CODE_LENS_BORDER_COLOR">
+      <value>
+        <option name="EFFECT_COLOR" value="9f9f9f" />
       </value>
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">

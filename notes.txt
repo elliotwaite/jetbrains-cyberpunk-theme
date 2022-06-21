@@ -11,8 +11,9 @@ To update the color scheme:
      '/resources/cyberpunk_theme.xml'.
   4. Incorporate the changes into '/scripts/builder/Cyberpunk_Theme.icls', but
      replace any hex colors with its equivalent palette color name.
-  5. Run the builder, '/scripts/builder/builder.py', to have the changes also
-     be applied to '/resources/cyberpunk_theme.xml'.
+  5. Run the builder to have the changes also be applied to
+     '/resources/cyberpunk_theme.xml:
+     $ python ./scripts/builder/builder.py
 
 To run the debug theme:
   1. Temporarily copy the contents of:

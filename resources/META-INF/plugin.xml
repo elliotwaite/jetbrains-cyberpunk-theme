@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.elliotwaite.cyberpunk_theme</id>
   <name>Cyberpunk Theme</name>
-  <version>1.0.11</version>
+  <version>1.0.12</version>
   <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
   <description><![CDATA[
@@ -20,6 +20,22 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <b>1.0.12</b>
+      <ul>
+        <li>
+          Updated the context menu's background color to be a slightly darker
+          grey.
+        </li>
+        <li>
+          Changed the context menu selected item's background color from blue
+          to a grey that is slightly lighter than the background.
+        </li>
+        <li>
+          The following elements were using non-theme grey colors, so they were
+          slightly adjusted to use grey colors from the theme's palette:
+          ERROR_HINT, INFORMATION_HINT, LOOKUP_COLOR, CODE_LENS_BORDER_COLOR
+        </li>
+      </ul>
       <b>1.0.11</b>
       <ul>
         <li>
