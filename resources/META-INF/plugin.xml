@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.elliotwaite.cyberpunk_theme</id>
   <name>Cyberpunk Theme</name>
-  <version>1.0.12</version>
+  <version>1.1.0</version>
   <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
   <description><![CDATA[
@@ -20,6 +20,17 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <b>1.1.0</b>
+      <ul>
+        <li>
+          In this update, most of the background colors have been shifted
+          slightly darker and other changes were made to make it compatible
+          with JetBrain's new UI. Going forward, this theme will be mainly
+          tested using the new UI, but it should still work well with the
+          legacy UI (non-new UI). If you notice anything that looks off when
+          using the legacy UI, please let me know on GitHub.
+        </li>
+      </ul>
       <b>1.0.12</b>
       <ul>
         <li>
@@ -88,6 +99,7 @@
 
   <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
   <idea-version since-build="173.0"/>
+  <!-- <idea-version since-build="223"/> -->
 
   <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
        on how to target different products -->

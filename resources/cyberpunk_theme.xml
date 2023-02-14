@@ -2,12 +2,12 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="39523d" />
     <option name="CARET_COLOR" value="b9b9b9" />
-    <option name="CARET_ROW_COLOR" value="2e2e2e" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="272727" />
+    <option name="CARET_ROW_COLOR" value="272727" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="212121" />
     <option name="DELETED_LINES_COLOR" value="676767" />
-    <option name="DOCUMENTATION_COLOR" value="424242" />
-    <option name="DOC_COMMENT_GUIDE" value="3b3b3b" />
-    <option name="ERROR_HINT" value="343434" />
+    <option name="DOCUMENTATION_COLOR" value="3b3b3b" />
+    <option name="DOC_COMMENT_GUIDE" value="343434" />
+    <option name="ERROR_HINT" value="2e2e2e" />
     <option name="FILESTATUS_ADDED" value="51f66f" />
     <option name="FILESTATUS_COPIED" value="51f66f" />
     <option name="FILESTATUS_DELETED" value="676767" />
@@ -29,29 +29,29 @@
     <option name="FILESTATUS_changelistConflict" value="f3505c" />
     <option name="FILESTATUS_modifiedOutside" value="f0ff" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="534e3c" />
-    <option name="GUTTER_BACKGROUND" value="343434" />
+    <option name="GUTTER_BACKGROUND" value="2e2e2e" />
     <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="3b6443" />
     <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="676767" />
     <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="355a84" />
     <option name="IMAGES_BACKGROUND" value="c1c1c1" />
     <option name="IMAGES_GRID_LINE_COLOR" value="c1c1c1" />
     <option name="IMAGES_WHITE_CELL_COLOR" value="c1c1c1" />
-    <option name="INDENT_GUIDE" value="343434" />
-    <option name="INFORMATION_HINT" value="343434" />
+    <option name="INDENT_GUIDE" value="2e2e2e" />
+    <option name="INFORMATION_HINT" value="2e2e2e" />
     <option name="LINE_NUMBERS_COLOR" value="676767" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="9f9f9f" />
-    <option name="LOOKUP_COLOR" value="343434" />
-    <option name="METHOD_SEPARATORS_COLOR" value="4a4a4a" />
+    <option name="LOOKUP_COLOR" value="2e2e2e" />
+    <option name="METHOD_SEPARATORS_COLOR" value="424242" />
     <option name="MODIFIED_LINES_COLOR" value="344962" />
-    <option name="PROMOTION_PANE" value="343434" />
-    <option name="RIGHT_MARGIN_COLOR" value="4a4a4a" />
-    <option name="SELECTED_INDENT_GUIDE" value="4a4a4a" />
+    <option name="PROMOTION_PANE" value="2e2e2e" />
+    <option name="RIGHT_MARGIN_COLOR" value="424242" />
+    <option name="SELECTED_INDENT_GUIDE" value="424242" />
     <option name="SELECTED_TEARLINE_COLOR" value="777777" />
-    <option name="SEPARATOR_BELOW_COLOR" value="343434" />
+    <option name="SEPARATOR_BELOW_COLOR" value="2e2e2e" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="7f7f7f8c" />
     <option name="ScrollBar.Mac.thumbColor" value="7f7f7f59" />
-    <option name="TEARLINE_COLOR" value="515151" />
-    <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
+    <option name="TEARLINE_COLOR" value="4a4a4a" />
+    <option name="VISUAL_INDENT_GUIDE" value="343434" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="544a3f" />
   </colors>
   <attributes>
@@ -71,7 +71,7 @@
     <option name="BREADCRUMBS_CURRENT">
       <value>
         <option name="FOREGROUND" value="b9b9b9" />
-        <option name="BACKGROUND" value="424242" />
+        <option name="BACKGROUND" value="3b3b3b" />
       </value>
     </option>
     <option name="BREADCRUMBS_DEFAULT">
@@ -82,7 +82,7 @@
     <option name="BREADCRUMBS_HOVERED">
       <value>
         <option name="FOREGROUND" value="b9b9b9" />
-        <option name="BACKGROUND" value="3b3b3b" />
+        <option name="BACKGROUND" value="343434" />
       </value>
     </option>
     <option name="BREADCRUMBS_INACTIVE">
@@ -417,7 +417,7 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="8f8f8f" />
-        <option name="BACKGROUND" value="3b3b3b" />
+        <option name="BACKGROUND" value="343434" />
       </value>
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
@@ -449,8 +449,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3b3b3b" />
-        <option name="ERROR_STRIPE_COLOR" value="585858" />
+        <option name="BACKGROUND" value="343434" />
+        <option name="ERROR_STRIPE_COLOR" value="515151" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -492,7 +492,7 @@
     <option name="JUPYTER_SELECTED_CELL">
       <value>
         <option name="FOREGROUND" value="676767" />
-        <option name="BACKGROUND" value="3b3b3b" />
+        <option name="BACKGROUND" value="343434" />
       </value>
     </option>
     <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
@@ -541,7 +541,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="e4e4e4" />
-        <option name="BACKGROUND" value="4a4a4a" />
+        <option name="BACKGROUND" value="424242" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -654,17 +654,17 @@
     </option>
     <option name="REST.FIXED">
       <value>
-        <option name="BACKGROUND" value="343434" />
+        <option name="BACKGROUND" value="2e2e2e" />
       </value>
     </option>
     <option name="REST.INLINE">
       <value>
-        <option name="BACKGROUND" value="515151" />
+        <option name="BACKGROUND" value="4a4a4a" />
       </value>
     </option>
     <option name="REST.INTERPRETED">
       <value>
-        <option name="BACKGROUND" value="424242" />
+        <option name="BACKGROUND" value="3b3b3b" />
       </value>
     </option>
     <option name="RUNTIME_ERROR">
@@ -705,7 +705,7 @@
     </option>
     <option name="SPY-JS.PROGRAM_SCOPE">
       <value>
-        <option name="BACKGROUND" value="3b3b3b" />
+        <option name="BACKGROUND" value="343434" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -731,13 +731,13 @@
     </option>
     <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
       <value>
-        <option name="BACKGROUND" value="4a4a4a" />
+        <option name="BACKGROUND" value="424242" />
       </value>
     </option>
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="cacaca" />
-        <option name="BACKGROUND" value="272727" />
+        <option name="BACKGROUND" value="212121" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -752,7 +752,7 @@
       <value>
         <option name="FOREGROUND" value="777777" />
         <option name="FONT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="3b3b3b" />
+        <option name="ERROR_STRIPE_COLOR" value="343434" />
       </value>
     </option>
     <option name="TS.TYPE_GUARD">
@@ -798,6 +798,7 @@
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
+    <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME" />
     <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG">
@@ -828,6 +829,27 @@
     <option name="YAML_ANCHOR">
       <value>
         <option name="FOREGROUND" value="f0ff" />
+      </value>
+    </option>
+    <option name="org.rust.CFG_DISABLED_CODE">
+      <value>
+        <option name="FOREGROUND" value="777777" />
+      </value>
+    </option>
+    <option name="org.rust.LIFETIME">
+      <value>
+        <option name="FOREGROUND" value="368aec" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="org.rust.MACRO">
+      <value>
+        <option name="FOREGROUND" value="ffc07a" />
+      </value>
+    </option>
+    <option name="org.rust.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="368aec" />
       </value>
     </option>
   </attributes>
