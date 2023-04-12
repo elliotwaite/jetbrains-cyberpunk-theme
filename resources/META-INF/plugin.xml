@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.elliotwaite.cyberpunk_theme</id>
   <name>Cyberpunk Theme</name>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
   <description><![CDATA[
@@ -20,6 +20,14 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <b>1.1.1</b>
+      <ul>
+        <li>
+          The default code style for Rust adds an underline to mutable
+          variable. This update changes the color of that underline from its
+          default light pink color to a gray.
+        </li>
+      </ul>
       <b>1.1.0</b>
       <ul>
         <li>
