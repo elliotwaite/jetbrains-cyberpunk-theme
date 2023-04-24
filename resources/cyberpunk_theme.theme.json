@@ -305,7 +305,7 @@
       "foreground": "grey26",
       "selectionBackground": "grey9",
       "selectionForeground": "grey30",
-      "selectionInactiveBackground": "grey9"
+      "selectionInactiveBackground": "grey8"
     },
     "WelcomeScreen": {
       "background": "grey5",

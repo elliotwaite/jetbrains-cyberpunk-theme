@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.elliotwaite.cyberpunk_theme</id>
   <name>Cyberpunk Theme</name>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
   <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
   <description><![CDATA[
@@ -20,6 +20,17 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <b>1.1.2</b>
+      <ul>
+        <li>
+          This change makes it so that selected files in the file browser will
+          still show as selected (they will have a light grey background color)
+          even when the file browser panel is not focused. This also applies to
+          any other tree views other than the file browser. See here for more
+          details:
+          https://github.com/elliotwaite/jetbrains-cyberpunk-theme/pull/6.
+        </li>
+      </ul>
       <b>1.1.1</b>
       <ul>
         <li>
