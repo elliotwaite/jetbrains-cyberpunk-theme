@@ -181,7 +181,11 @@
       "foreground": "grey26"
     },
     "Link": {
-      "pressedForeground": "#589DF6"
+      "activeForeground": "darkBlue",
+      "hoverForeground": "darkBlue",
+      "pressedForeground": "darkBlue",
+      "secondaryForeground": "darkBlue",
+      "visitedForeground": "darkBlue"
     },
     "List": {
       "background": "grey6",
@@ -303,6 +307,7 @@
     "Tree": {
       "background": "grey5",
       "foreground": "grey26",
+      "modifiedItemForeground": "darkBlue",
       "selectionBackground": "grey9",
       "selectionForeground": "grey30",
       "selectionInactiveBackground": "grey8"

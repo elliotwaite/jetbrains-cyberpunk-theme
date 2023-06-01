@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.elliotwaite.cyberpunk_theme</id>
   <name>Cyberpunk Theme</name>
-  <version>1.1.2</version>
+  <version>1.1.3</version>
   <vendor email="elliot@elliotwaite.com" url="https://github.com/elliotwaite/jetbrains-cyberpunk-theme">Elliot Waite</vendor>
 
   <description><![CDATA[
@@ -20,6 +20,13 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <b>1.1.3</b>
+      <ul>
+        <li>
+          Changed the color of all blue links to be the same dark blue that is
+          used in the rest of the theme.
+        </li>
+      </ul>
       <b>1.1.2</b>
       <ul>
         <li>

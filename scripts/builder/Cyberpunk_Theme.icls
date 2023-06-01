@@ -223,6 +223,11 @@
       </value>
     </option>
     <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
+    <option name="CTRL_CLICKABLE">
+      <value>
+        <option name="FOREGROUND" value="darkBlue"/>
+      </value>
+    </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
