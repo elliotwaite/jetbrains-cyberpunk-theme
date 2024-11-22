@@ -31,42 +31,35 @@
     "grey24": "#b9b9b9",
     "grey25": "#c1c1c1",
     "grey26": "#cacaca",
-    "grey27": "#d3d2d2",
+    "grey27": "#d3d3d3",
     "grey28": "#dbdbdb",
     "grey29": "#e4e4e4",
     "grey30": "#ededed",
     "grey31": "#f6f6f6",
     "white": "#ffffff",
-
     "red": "#f3505c",
     "orange": "#ffc07a",
     "yellow": "#eedb85",
     "green": "#51f66f",
     "lightBlue": "#00f0ff",
     "darkBlue": "#368aec",
-    "purple": "#A186E1",
+    "purple": "#a186e1",
+    "???????": "#e567dc",
     "darkPink": "#d867c6",
     "pink": "#ffaef4",
-
     "orange5grey7": "#544a3f",
     "green5grey7": "#39523d",
     "darkBlue8grey7": "#344962",
-
     "green8grey7": "#3b6443",
     "darkBlue14grey7": "#355a84",
-
     "blue5grey5": "#214649",
-
     "yellow7grey5": "#534E3C",
-
     "red9grey5": "#603336",
     "orange9grey5": "#64523E",
     "yellow9grey5": "#5F5A41",
     "green9grey5": "#33613B",
     "blue9grey5": "#1C6064",
-
     "darkBlue21grey5": "#316BAE",
-
     "red18grey5": "#9A3E45",
     "orange18grey5": "#A17D56",
     "yellow18grey5": "#978C5C",
@@ -76,12 +69,10 @@
     "purple18grey5": "#6C5C90",
     "darkPink18grey5": "#8B4B80",
     "pink18grey5": "#A1739A",
-
     "darkBlue14": "#183C67",
     "darkBlue21": "#235B9B",
     "darkBlue22": "#255FA2",
     "darkBlue28": "#2F79CE",
-
     "error": "#ff0000"
   },
   "ui": {
@@ -228,7 +219,7 @@
       "lightSelectionBackground": "grey9",
       "Button": {
         "installFillForeground": "grey30",
-        "updateForeground":"grey30"
+        "updateForeground": "grey30"
       },
       "SearchField": {
         "borderColor": "grey4"
